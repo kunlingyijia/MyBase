@@ -1,0 +1,76 @@
+//
+//  PrefixHeader.pch
+//  封装基本控制器
+//
+//  Created by 席亚坤 on 16/9/24.
+//  Copyright © 2016年 席亚坤. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+/* 首次启动判断*/
+#define First_Launched @"firstLaunch"
+/* ios7系统判断*/
+#define IsIOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >=7.0 ? YES : NO)
+/* 判断是否Retina屏、是否IPhone5、是否IPad*/
+#define isRetina ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960),[[UIScreen mainScreen] currentMode].size) : NO)
+
+#define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136),[[UIScreen mainScreen] currentMode].size) : NO)
+
+#define isPad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+
+
+
+/*加载图片宏*/
+
+#define LOADIMAGE(file,type) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:file ofType:type]]
+
+/*rgb颜色转换（16进制->10进制）
+*/
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+/*设置颜色RGB
+ */
+
+//带有RGBA的颜色设置
+#define COLOR(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+
+// 获取RGB颜色
+#define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#define RGB(r,g,b) RGBA(r,g,b,1.0f)
+//背景色
+#define BACKGROUND_COLOR [UIColor colorWithRed:242.0/255.0 green:236.0/255.0 blue:231.0/255.0 alpha:1.0]
+
+//清除背景色
+#define CLEARCOLOR [UIColor clearColor]
+/*/去除"-(id)performSelector:(SEL)aSelector withObject:(id)object;"的警告
+ */
+
+
+#define SuppressPerformSelectorLeakWarning(Stuff) \do { \
+    _Pragma("clang diagnostic push") \
+    _Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+    Stuff; \
+    _Pragma("clang diagnostic pop") \
+    } while (0)
+
+//控件属性 切角
+#define subView_Radius_Masks(subView,f) subView.layer.cornerRadius = f;subView.layer.masksToBounds = YES;
+
+
+#define URL(str) [URL_Header stringByAppendingString:str]
+
+#define URL_Header @"https://www.baidu.com/"
+
+
+
+
+
+
+

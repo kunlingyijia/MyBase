@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD41F2721DE1D56F003394E6 /* ChangeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41F2711DE1D56F003394E6 /* ChangeValue.m */; };
+		BD41F2761DE1F436003394E6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD41F2741DE1F436003394E6 /* RootViewController.m */; };
+		BD41F2771DE1F436003394E6 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD41F2751DE1F436003394E6 /* RootViewController.xib */; };
+		BD56A36C1DE1C535009721CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD56A36B1DE1C535009721CE /* main.m */; };
+		BD56A36F1DE1C535009721CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD56A36E1DE1C535009721CE /* AppDelegate.m */; };
+		BD56A3721DE1C535009721CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD56A3711DE1C535009721CE /* ViewController.m */; };
+		BD56A3751DE1C536009721CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD56A3731DE1C536009721CE /* Main.storyboard */; };
+		BD56A3771DE1C536009721CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD56A3761DE1C536009721CE /* Assets.xcassets */; };
+		BD56A37A1DE1C536009721CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD56A3781DE1C536009721CE /* LaunchScreen.storyboard */; };
+		BD56A3851DE1C536009721CE /* _____buttion___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD56A3841DE1C536009721CE /* _____buttion___Tests.m */; };
+		BD56A3901DE1C536009721CE /* _____buttion___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD56A38F1DE1C536009721CE /* _____buttion___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD56A3811DE1C536009721CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD56A35F1DE1C535009721CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD56A3661DE1C535009721CE;
+			remoteInfo = "输入框改变buttion的状态";
+		};
+		BD56A38C1DE1C536009721CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD56A35F1DE1C535009721CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD56A3661DE1C535009721CE;
+			remoteInfo = "输入框改变buttion的状态";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD41F2701DE1D56F003394E6 /* ChangeValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeValue.h; sourceTree = "<group>"; };
+		BD41F2711DE1D56F003394E6 /* ChangeValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeValue.m; sourceTree = "<group>"; };
+		BD41F2731DE1F436003394E6 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BD41F2741DE1F436003394E6 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BD41F2751DE1F436003394E6 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		BD56A3671DE1C535009721CE /* 输入框改变buttion的状态.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "输入框改变buttion的状态.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD56A36B1DE1C535009721CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD56A36D1DE1C535009721CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD56A36E1DE1C535009721CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD56A3701DE1C535009721CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD56A3711DE1C535009721CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD56A3741DE1C536009721CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD56A3761DE1C536009721CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD56A3791DE1C536009721CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD56A37B1DE1C536009721CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD56A3801DE1C536009721CE /* 输入框改变buttion的状态Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "输入框改变buttion的状态Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD56A3841DE1C536009721CE /* _____buttion___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____buttion___Tests.m"; sourceTree = "<group>"; };
+		BD56A3861DE1C536009721CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD56A38B1DE1C536009721CE /* 输入框改变buttion的状态UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "输入框改变buttion的状态UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD56A38F1DE1C536009721CE /* _____buttion___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____buttion___UITests.m"; sourceTree = "<group>"; };
+		BD56A3911DE1C536009721CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD56A3641DE1C535009721CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD56A37D1DE1C536009721CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD56A3881DE1C536009721CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD56A35E1DE1C535009721CE = {
+			isa = PBXGroup;
+			children = (
+				BD56A3691DE1C535009721CE /* 输入框改变buttion的状态 */,
+				BD56A3831DE1C536009721CE /* 输入框改变buttion的状态Tests */,
+				BD56A38E1DE1C536009721CE /* 输入框改变buttion的状态UITests */,
+				BD56A3681DE1C535009721CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD56A3681DE1C535009721CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD56A3671DE1C535009721CE /* 输入框改变buttion的状态.app */,
+				BD56A3801DE1C536009721CE /* 输入框改变buttion的状态Tests.xctest */,
+				BD56A38B1DE1C536009721CE /* 输入框改变buttion的状态UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD56A3691DE1C535009721CE /* 输入框改变buttion的状态 */ = {
+			isa = PBXGroup;
+			children = (
+				BD56A36D1DE1C535009721CE /* AppDelegate.h */,
+				BD56A36E1DE1C535009721CE /* AppDelegate.m */,
+				BD56A3701DE1C535009721CE /* ViewController.h */,
+				BD56A3711DE1C535009721CE /* ViewController.m */,
+				BD41F2731DE1F436003394E6 /* RootViewController.h */,
+				BD41F2741DE1F436003394E6 /* RootViewController.m */,
+				BD41F2751DE1F436003394E6 /* RootViewController.xib */,
+				BD41F2701DE1D56F003394E6 /* ChangeValue.h */,
+				BD41F2711DE1D56F003394E6 /* ChangeValue.m */,
+				BD56A3731DE1C536009721CE /* Main.storyboard */,
+				BD56A3761DE1C536009721CE /* Assets.xcassets */,
+				BD56A3781DE1C536009721CE /* LaunchScreen.storyboard */,
+				BD56A37B1DE1C536009721CE /* Info.plist */,
+				BD56A36A1DE1C535009721CE /* Supporting Files */,
+			);
+			path = "输入框改变buttion的状态";
+			sourceTree = "<group>";
+		};
+		BD56A36A1DE1C535009721CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD56A36B1DE1C535009721CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD56A3831DE1C536009721CE /* 输入框改变buttion的状态Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD56A3841DE1C536009721CE /* _____buttion___Tests.m */,
+				BD56A3861DE1C536009721CE /* Info.plist */,
+			);
+			path = "输入框改变buttion的状态Tests";
+			sourceTree = "<group>";
+		};
+		BD56A38E1DE1C536009721CE /* 输入框改变buttion的状态UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD56A38F1DE1C536009721CE /* _____buttion___UITests.m */,
+				BD56A3911DE1C536009721CE /* Info.plist */,
+			);
+			path = "输入框改变buttion的状态UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD56A3661DE1C535009721CE /* 输入框改变buttion的状态 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD56A3941DE1C536009721CE /* Build configuration list for PBXNativeTarget "输入框改变buttion的状态" */;
+			buildPhases = (
+				BD56A3631DE1C535009721CE /* Sources */,
+				BD56A3641DE1C535009721CE /* Frameworks */,
+				BD56A3651DE1C535009721CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "输入框改变buttion的状态";
+			productName = "输入框改变buttion的状态";
+			productReference = BD56A3671DE1C535009721CE /* 输入框改变buttion的状态.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD56A37F1DE1C536009721CE /* 输入框改变buttion的状态Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD56A3971DE1C536009721CE /* Build configuration list for PBXNativeTarget "输入框改变buttion的状态Tests" */;
+			buildPhases = (
+				BD56A37C1DE1C536009721CE /* Sources */,
+				BD56A37D1DE1C536009721CE /* Frameworks */,
+				BD56A37E1DE1C536009721CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD56A3821DE1C536009721CE /* PBXTargetDependency */,
+			);
+			name = "输入框改变buttion的状态Tests";
+			productName = "输入框改变buttion的状态Tests";
+			productReference = BD56A3801DE1C536009721CE /* 输入框改变buttion的状态Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD56A38A1DE1C536009721CE /* 输入框改变buttion的状态UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD56A39A1DE1C536009721CE /* Build configuration list for PBXNativeTarget "输入框改变buttion的状态UITests" */;
+			buildPhases = (
+				BD56A3871DE1C536009721CE /* Sources */,
+				BD56A3881DE1C536009721CE /* Frameworks */,
+				BD56A3891DE1C536009721CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD56A38D1DE1C536009721CE /* PBXTargetDependency */,
+			);
+			name = "输入框改变buttion的状态UITests";
+			productName = "输入框改变buttion的状态UITests";
+			productReference = BD56A38B1DE1C536009721CE /* 输入框改变buttion的状态UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD56A35F1DE1C535009721CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "席亚坤";
+				TargetAttributes = {
+					BD56A3661DE1C535009721CE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+					};
+					BD56A37F1DE1C536009721CE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD56A3661DE1C535009721CE;
+					};
+					BD56A38A1DE1C536009721CE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD56A3661DE1C535009721CE;
+					};
+				};
+			};
+			buildConfigurationList = BD56A3621DE1C535009721CE /* Build configuration list for PBXProject "输入框改变buttion的状态" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD56A35E1DE1C535009721CE;
+			productRefGroup = BD56A3681DE1C535009721CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD56A3661DE1C535009721CE /* 输入框改变buttion的状态 */,
+				BD56A37F1DE1C536009721CE /* 输入框改变buttion的状态Tests */,
+				BD56A38A1DE1C536009721CE /* 输入框改变buttion的状态UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD56A3651DE1C535009721CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD56A37A1DE1C536009721CE /* LaunchScreen.storyboard in Resources */,
+				BD56A3771DE1C536009721CE /* Assets.xcassets in Resources */,
+				BD41F2771DE1F436003394E6 /* RootViewController.xib in Resources */,
+				BD56A3751DE1C536009721CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD56A37E1DE1C536009721CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD56A3891DE1C536009721CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD56A3631DE1C535009721CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD56A3721DE1C535009721CE /* ViewController.m in Sources */,
+				BD56A36F1DE1C535009721CE /* AppDelegate.m in Sources */,
+				BD56A36C1DE1C535009721CE /* main.m in Sources */,
+				BD41F2721DE1D56F003394E6 /* ChangeValue.m in Sources */,
+				BD41F2761DE1F436003394E6 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD56A37C1DE1C536009721CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD56A3851DE1C536009721CE /* _____buttion___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD56A3871DE1C536009721CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD56A3901DE1C536009721CE /* _____buttion___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD56A3821DE1C536009721CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD56A3661DE1C535009721CE /* 输入框改变buttion的状态 */;
+			targetProxy = BD56A3811DE1C536009721CE /* PBXContainerItemProxy */;
+		};
+		BD56A38D1DE1C536009721CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD56A3661DE1C535009721CE /* 输入框改变buttion的状态 */;
+			targetProxy = BD56A38C1DE1C536009721CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD56A3731DE1C536009721CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD56A3741DE1C536009721CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD56A3781DE1C536009721CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD56A3791DE1C536009721CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD56A3921DE1C536009721CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD56A3931DE1C536009721CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD56A3951DE1C536009721CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "输入框改变buttion的状态/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----buttion---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD56A3961DE1C536009721CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "输入框改变buttion的状态/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----buttion---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD56A3981DE1C536009721CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "输入框改变buttion的状态Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----buttion---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/输入框改变buttion的状态.app/输入框改变buttion的状态";
+			};
+			name = Debug;
+		};
+		BD56A3991DE1C536009721CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "输入框改变buttion的状态Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----buttion---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/输入框改变buttion的状态.app/输入框改变buttion的状态";
+			};
+			name = Release;
+		};
+		BD56A39B1DE1C536009721CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "输入框改变buttion的状态UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----buttion---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "输入框改变buttion的状态";
+			};
+			name = Debug;
+		};
+		BD56A39C1DE1C536009721CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "输入框改变buttion的状态UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----buttion---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "输入框改变buttion的状态";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD56A3621DE1C535009721CE /* Build configuration list for PBXProject "输入框改变buttion的状态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD56A3921DE1C536009721CE /* Debug */,
+				BD56A3931DE1C536009721CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD56A3941DE1C536009721CE /* Build configuration list for PBXNativeTarget "输入框改变buttion的状态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD56A3951DE1C536009721CE /* Debug */,
+				BD56A3961DE1C536009721CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD56A3971DE1C536009721CE /* Build configuration list for PBXNativeTarget "输入框改变buttion的状态Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD56A3981DE1C536009721CE /* Debug */,
+				BD56A3991DE1C536009721CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD56A39A1DE1C536009721CE /* Build configuration list for PBXNativeTarget "输入框改变buttion的状态UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD56A39B1DE1C536009721CE /* Debug */,
+				BD56A39C1DE1C536009721CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD56A35F1DE1C535009721CE /* Project object */;
+}

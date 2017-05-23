@@ -1,0 +1,9 @@
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/MOBFoundation" "${PODS_ROOT}/ShareSDK2/ShareSDK" "${PODS_ROOT}/ShareSDK2/ShareSDK/Connection" "${PODS_ROOT}/ShareSDK2/ShareSDK/Core" "${PODS_ROOT}/ShareSDK2/ShareSDK/UI"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/MOBFoundation" "${PODS_ROOT}/Headers/Public/ShareSDK2"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AFNetworking" $(inherited) "${PODS_ROOT}/ShareSDK2/ShareSDK/Extend/WeChatSDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/MOBFoundation" -isystem "${PODS_ROOT}/Headers/Public/ShareSDK2"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"WeChatSDK" -l"icucore" -l"sqlite3" -l"stdc++" -l"z" -l"z.1.2.5" -framework "AGCommon" -framework "CoreGraphics" -framework "CoreTelephony" -framework "CoreText" -framework "JavaScriptCore" -framework "MOBFoundation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "ShareSDK" -framework "ShareSDKCoreService" -framework "ShareSDKFlatShareViewUI" -framework "ShareSDKShareActionSheet" -framework "ShareSDKiPadDefaultShareViewUI" -framework "SystemConfiguration" -framework "WeChatConnection"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

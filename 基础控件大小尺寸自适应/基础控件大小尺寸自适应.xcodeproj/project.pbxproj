@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD0BB5E91E018E2F00B9C932 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0BB5E71E018E2F00B9C932 /* ThreeViewController.m */; };
+		BD0BB5EA1E018E2F00B9C932 /* ThreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0BB5E81E018E2F00B9C932 /* ThreeViewController.xib */; };
+		BD0BB5ED1E02322500B9C932 /* UIButton+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0BB5EC1E02322500B9C932 /* UIButton+Size.m */; };
+		BD0BB5F01E0235D000B9C932 /* UITextField+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0BB5EF1E0235D000B9C932 /* UITextField+Size.m */; };
+		BD0BB5F31E02371A00B9C932 /* NSObject+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0BB5F21E02371A00B9C932 /* NSObject+Size.m */; };
+		BD3CEC611E0169E0003842CA /* SizeS.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3CEC601E0169E0003842CA /* SizeS.m */; };
+		BD3CEC641E016A7F003842CA /* NSLayoutConstraint+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3CEC631E016A7F003842CA /* NSLayoutConstraint+Size.m */; };
+		BD3CEC671E016CE9003842CA /* UILabel+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3CEC661E016CE9003842CA /* UILabel+Size.m */; };
+		BD55BC4B1E0139DF00FE2096 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = BD55BC4A1E0139DF00FE2096 /* UIView+Size.m */; };
+		BD55BC4F1E01419700FE2096 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD55BC4D1E01419700FE2096 /* TwoViewController.m */; };
+		BD55BC501E01419700FE2096 /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD55BC4E1E01419700FE2096 /* TwoViewController.xib */; };
+		BDDCBC671DE02CE50028541F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCBC661DE02CE50028541F /* main.m */; };
+		BDDCBC6A1DE02CE50028541F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCBC691DE02CE50028541F /* AppDelegate.m */; };
+		BDDCBC6D1DE02CE50028541F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCBC6C1DE02CE50028541F /* ViewController.m */; };
+		BDDCBC701DE02CE50028541F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDCBC6E1DE02CE50028541F /* Main.storyboard */; };
+		BDDCBC721DE02CE50028541F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDCBC711DE02CE50028541F /* Assets.xcassets */; };
+		BDDCBC751DE02CE50028541F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDCBC731DE02CE50028541F /* LaunchScreen.storyboard */; };
+		BDDCBC801DE02CE50028541F /* ___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCBC7F1DE02CE50028541F /* ___________Tests.m */; };
+		BDDCBC8B1DE02CE50028541F /* ___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCBC8A1DE02CE50028541F /* ___________UITests.m */; };
+		BDDCBC9A1DE02D150028541F /* FristPubicLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCBC991DE02D150028541F /* FristPubicLabel.m */; };
+		BDDCBC9D1DE02D330028541F /* SecondPubicLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCBC9C1DE02D330028541F /* SecondPubicLabel.m */; };
+		BDDCBCA01DE02D550028541F /* ThreePubicLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCBC9F1DE02D550028541F /* ThreePubicLabel.m */; };
+		BDDCBCA31DE02DB30028541F /* SubmitBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDCBCA21DE02DB30028541F /* SubmitBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDDCBC7C1DE02CE50028541F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDDCBC5A1DE02CE50028541F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDCBC611DE02CE50028541F;
+			remoteInfo = "基础控件大小尺寸自适应";
+		};
+		BDDCBC871DE02CE50028541F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDDCBC5A1DE02CE50028541F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDCBC611DE02CE50028541F;
+			remoteInfo = "基础控件大小尺寸自适应";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD0BB5E61E018E2F00B9C932 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		BD0BB5E71E018E2F00B9C932 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		BD0BB5E81E018E2F00B9C932 /* ThreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeViewController.xib; sourceTree = "<group>"; };
+		BD0BB5EB1E02322500B9C932 /* UIButton+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Size.h"; sourceTree = "<group>"; };
+		BD0BB5EC1E02322500B9C932 /* UIButton+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Size.m"; sourceTree = "<group>"; };
+		BD0BB5EE1E0235D000B9C932 /* UITextField+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Size.h"; sourceTree = "<group>"; };
+		BD0BB5EF1E0235D000B9C932 /* UITextField+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Size.m"; sourceTree = "<group>"; };
+		BD0BB5F11E02371A00B9C932 /* NSObject+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Size.h"; sourceTree = "<group>"; };
+		BD0BB5F21E02371A00B9C932 /* NSObject+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Size.m"; sourceTree = "<group>"; };
+		BD3CEC5F1E0169E0003842CA /* SizeS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeS.h; sourceTree = "<group>"; };
+		BD3CEC601E0169E0003842CA /* SizeS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SizeS.m; sourceTree = "<group>"; };
+		BD3CEC621E016A7F003842CA /* NSLayoutConstraint+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+Size.h"; sourceTree = "<group>"; };
+		BD3CEC631E016A7F003842CA /* NSLayoutConstraint+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+Size.m"; sourceTree = "<group>"; };
+		BD3CEC651E016CE9003842CA /* UILabel+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Size.h"; sourceTree = "<group>"; };
+		BD3CEC661E016CE9003842CA /* UILabel+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Size.m"; sourceTree = "<group>"; };
+		BD55BC491E0139DF00FE2096 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		BD55BC4A1E0139DF00FE2096 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		BD55BC4C1E01419700FE2096 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		BD55BC4D1E01419700FE2096 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		BD55BC4E1E01419700FE2096 /* TwoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
+		BDDCBC621DE02CE50028541F /* 基础控件大小尺寸自适应.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "基础控件大小尺寸自适应.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDCBC661DE02CE50028541F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDDCBC681DE02CE50028541F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDDCBC691DE02CE50028541F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDDCBC6B1DE02CE50028541F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDDCBC6C1DE02CE50028541F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDDCBC6F1DE02CE50028541F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDDCBC711DE02CE50028541F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDDCBC741DE02CE50028541F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDDCBC761DE02CE50028541F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDCBC7B1DE02CE50028541F /* 基础控件大小尺寸自适应Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "基础控件大小尺寸自适应Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDCBC7F1DE02CE50028541F /* ___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________Tests.m"; sourceTree = "<group>"; };
+		BDDCBC811DE02CE50028541F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDCBC861DE02CE50028541F /* 基础控件大小尺寸自适应UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "基础控件大小尺寸自适应UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDCBC8A1DE02CE50028541F /* ___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________UITests.m"; sourceTree = "<group>"; };
+		BDDCBC8C1DE02CE50028541F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDCBC981DE02D150028541F /* FristPubicLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FristPubicLabel.h; sourceTree = "<group>"; };
+		BDDCBC991DE02D150028541F /* FristPubicLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FristPubicLabel.m; sourceTree = "<group>"; };
+		BDDCBC9B1DE02D330028541F /* SecondPubicLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPubicLabel.h; sourceTree = "<group>"; };
+		BDDCBC9C1DE02D330028541F /* SecondPubicLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPubicLabel.m; sourceTree = "<group>"; };
+		BDDCBC9E1DE02D550028541F /* ThreePubicLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreePubicLabel.h; sourceTree = "<group>"; };
+		BDDCBC9F1DE02D550028541F /* ThreePubicLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreePubicLabel.m; sourceTree = "<group>"; };
+		BDDCBCA11DE02DB30028541F /* SubmitBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitBtn.h; sourceTree = "<group>"; };
+		BDDCBCA21DE02DB30028541F /* SubmitBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitBtn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDDCBC5F1DE02CE50028541F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDCBC781DE02CE50028541F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDCBC831DE02CE50028541F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDDCBC591DE02CE50028541F = {
+			isa = PBXGroup;
+			children = (
+				BDDCBC641DE02CE50028541F /* 基础控件大小尺寸自适应 */,
+				BDDCBC7E1DE02CE50028541F /* 基础控件大小尺寸自适应Tests */,
+				BDDCBC891DE02CE50028541F /* 基础控件大小尺寸自适应UITests */,
+				BDDCBC631DE02CE50028541F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDDCBC631DE02CE50028541F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDDCBC621DE02CE50028541F /* 基础控件大小尺寸自适应.app */,
+				BDDCBC7B1DE02CE50028541F /* 基础控件大小尺寸自适应Tests.xctest */,
+				BDDCBC861DE02CE50028541F /* 基础控件大小尺寸自适应UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDDCBC641DE02CE50028541F /* 基础控件大小尺寸自适应 */ = {
+			isa = PBXGroup;
+			children = (
+				BDDCBC681DE02CE50028541F /* AppDelegate.h */,
+				BDDCBC691DE02CE50028541F /* AppDelegate.m */,
+				BDDCBC6B1DE02CE50028541F /* ViewController.h */,
+				BDDCBC6C1DE02CE50028541F /* ViewController.m */,
+				BDDCBC981DE02D150028541F /* FristPubicLabel.h */,
+				BDDCBC991DE02D150028541F /* FristPubicLabel.m */,
+				BDDCBC9B1DE02D330028541F /* SecondPubicLabel.h */,
+				BDDCBC9C1DE02D330028541F /* SecondPubicLabel.m */,
+				BDDCBC9E1DE02D550028541F /* ThreePubicLabel.h */,
+				BDDCBC9F1DE02D550028541F /* ThreePubicLabel.m */,
+				BDDCBCA11DE02DB30028541F /* SubmitBtn.h */,
+				BDDCBCA21DE02DB30028541F /* SubmitBtn.m */,
+				BD55BC491E0139DF00FE2096 /* UIView+Size.h */,
+				BD55BC4A1E0139DF00FE2096 /* UIView+Size.m */,
+				BD3CEC621E016A7F003842CA /* NSLayoutConstraint+Size.h */,
+				BD3CEC631E016A7F003842CA /* NSLayoutConstraint+Size.m */,
+				BD3CEC651E016CE9003842CA /* UILabel+Size.h */,
+				BD3CEC661E016CE9003842CA /* UILabel+Size.m */,
+				BD0BB5EB1E02322500B9C932 /* UIButton+Size.h */,
+				BD0BB5EC1E02322500B9C932 /* UIButton+Size.m */,
+				BD0BB5EE1E0235D000B9C932 /* UITextField+Size.h */,
+				BD0BB5EF1E0235D000B9C932 /* UITextField+Size.m */,
+				BD0BB5F11E02371A00B9C932 /* NSObject+Size.h */,
+				BD0BB5F21E02371A00B9C932 /* NSObject+Size.m */,
+				BD55BC4C1E01419700FE2096 /* TwoViewController.h */,
+				BD55BC4D1E01419700FE2096 /* TwoViewController.m */,
+				BD3CEC5F1E0169E0003842CA /* SizeS.h */,
+				BD3CEC601E0169E0003842CA /* SizeS.m */,
+				BD55BC4E1E01419700FE2096 /* TwoViewController.xib */,
+				BD0BB5E61E018E2F00B9C932 /* ThreeViewController.h */,
+				BD0BB5E71E018E2F00B9C932 /* ThreeViewController.m */,
+				BD0BB5E81E018E2F00B9C932 /* ThreeViewController.xib */,
+				BDDCBC6E1DE02CE50028541F /* Main.storyboard */,
+				BDDCBC711DE02CE50028541F /* Assets.xcassets */,
+				BDDCBC731DE02CE50028541F /* LaunchScreen.storyboard */,
+				BDDCBC761DE02CE50028541F /* Info.plist */,
+				BDDCBC651DE02CE50028541F /* Supporting Files */,
+			);
+			path = "基础控件大小尺寸自适应";
+			sourceTree = "<group>";
+		};
+		BDDCBC651DE02CE50028541F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDDCBC661DE02CE50028541F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDDCBC7E1DE02CE50028541F /* 基础控件大小尺寸自适应Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BDDCBC7F1DE02CE50028541F /* ___________Tests.m */,
+				BDDCBC811DE02CE50028541F /* Info.plist */,
+			);
+			path = "基础控件大小尺寸自适应Tests";
+			sourceTree = "<group>";
+		};
+		BDDCBC891DE02CE50028541F /* 基础控件大小尺寸自适应UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDDCBC8A1DE02CE50028541F /* ___________UITests.m */,
+				BDDCBC8C1DE02CE50028541F /* Info.plist */,
+			);
+			path = "基础控件大小尺寸自适应UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDDCBC611DE02CE50028541F /* 基础控件大小尺寸自适应 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDCBC8F1DE02CE50028541F /* Build configuration list for PBXNativeTarget "基础控件大小尺寸自适应" */;
+			buildPhases = (
+				BDDCBC5E1DE02CE50028541F /* Sources */,
+				BDDCBC5F1DE02CE50028541F /* Frameworks */,
+				BDDCBC601DE02CE50028541F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "基础控件大小尺寸自适应";
+			productName = "基础控件大小尺寸自适应";
+			productReference = BDDCBC621DE02CE50028541F /* 基础控件大小尺寸自适应.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDDCBC7A1DE02CE50028541F /* 基础控件大小尺寸自适应Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDCBC921DE02CE50028541F /* Build configuration list for PBXNativeTarget "基础控件大小尺寸自适应Tests" */;
+			buildPhases = (
+				BDDCBC771DE02CE50028541F /* Sources */,
+				BDDCBC781DE02CE50028541F /* Frameworks */,
+				BDDCBC791DE02CE50028541F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDCBC7D1DE02CE50028541F /* PBXTargetDependency */,
+			);
+			name = "基础控件大小尺寸自适应Tests";
+			productName = "基础控件大小尺寸自适应Tests";
+			productReference = BDDCBC7B1DE02CE50028541F /* 基础控件大小尺寸自适应Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDDCBC851DE02CE50028541F /* 基础控件大小尺寸自适应UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDCBC951DE02CE50028541F /* Build configuration list for PBXNativeTarget "基础控件大小尺寸自适应UITests" */;
+			buildPhases = (
+				BDDCBC821DE02CE50028541F /* Sources */,
+				BDDCBC831DE02CE50028541F /* Frameworks */,
+				BDDCBC841DE02CE50028541F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDCBC881DE02CE50028541F /* PBXTargetDependency */,
+			);
+			name = "基础控件大小尺寸自适应UITests";
+			productName = "基础控件大小尺寸自适应UITests";
+			productReference = BDDCBC861DE02CE50028541F /* 基础控件大小尺寸自适应UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDDCBC5A1DE02CE50028541F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "席亚坤";
+				TargetAttributes = {
+					BDDCBC611DE02CE50028541F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+					};
+					BDDCBC7A1DE02CE50028541F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDDCBC611DE02CE50028541F;
+					};
+					BDDCBC851DE02CE50028541F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BDDCBC611DE02CE50028541F;
+					};
+				};
+			};
+			buildConfigurationList = BDDCBC5D1DE02CE50028541F /* Build configuration list for PBXProject "基础控件大小尺寸自适应" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDDCBC591DE02CE50028541F;
+			productRefGroup = BDDCBC631DE02CE50028541F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDDCBC611DE02CE50028541F /* 基础控件大小尺寸自适应 */,
+				BDDCBC7A1DE02CE50028541F /* 基础控件大小尺寸自适应Tests */,
+				BDDCBC851DE02CE50028541F /* 基础控件大小尺寸自适应UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDDCBC601DE02CE50028541F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDCBC751DE02CE50028541F /* LaunchScreen.storyboard in Resources */,
+				BDDCBC721DE02CE50028541F /* Assets.xcassets in Resources */,
+				BDDCBC701DE02CE50028541F /* Main.storyboard in Resources */,
+				BD0BB5EA1E018E2F00B9C932 /* ThreeViewController.xib in Resources */,
+				BD55BC501E01419700FE2096 /* TwoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDCBC791DE02CE50028541F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDCBC841DE02CE50028541F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDDCBC5E1DE02CE50028541F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3CEC611E0169E0003842CA /* SizeS.m in Sources */,
+				BDDCBC6D1DE02CE50028541F /* ViewController.m in Sources */,
+				BD0BB5E91E018E2F00B9C932 /* ThreeViewController.m in Sources */,
+				BDDCBCA01DE02D550028541F /* ThreePubicLabel.m in Sources */,
+				BDDCBC9D1DE02D330028541F /* SecondPubicLabel.m in Sources */,
+				BDDCBC6A1DE02CE50028541F /* AppDelegate.m in Sources */,
+				BD3CEC671E016CE9003842CA /* UILabel+Size.m in Sources */,
+				BDDCBC671DE02CE50028541F /* main.m in Sources */,
+				BD0BB5F31E02371A00B9C932 /* NSObject+Size.m in Sources */,
+				BDDCBCA31DE02DB30028541F /* SubmitBtn.m in Sources */,
+				BD3CEC641E016A7F003842CA /* NSLayoutConstraint+Size.m in Sources */,
+				BD0BB5F01E0235D000B9C932 /* UITextField+Size.m in Sources */,
+				BD55BC4F1E01419700FE2096 /* TwoViewController.m in Sources */,
+				BDDCBC9A1DE02D150028541F /* FristPubicLabel.m in Sources */,
+				BD0BB5ED1E02322500B9C932 /* UIButton+Size.m in Sources */,
+				BD55BC4B1E0139DF00FE2096 /* UIView+Size.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDCBC771DE02CE50028541F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDCBC801DE02CE50028541F /* ___________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDCBC821DE02CE50028541F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDCBC8B1DE02CE50028541F /* ___________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDDCBC7D1DE02CE50028541F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDDCBC611DE02CE50028541F /* 基础控件大小尺寸自适应 */;
+			targetProxy = BDDCBC7C1DE02CE50028541F /* PBXContainerItemProxy */;
+		};
+		BDDCBC881DE02CE50028541F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDDCBC611DE02CE50028541F /* 基础控件大小尺寸自适应 */;
+			targetProxy = BDDCBC871DE02CE50028541F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDDCBC6E1DE02CE50028541F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDCBC6F1DE02CE50028541F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDDCBC731DE02CE50028541F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDCBC741DE02CE50028541F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDDCBC8D1DE02CE50028541F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDDCBC8E1DE02CE50028541F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDDCBC901DE02CE50028541F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "基础控件大小尺寸自适应/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDDCBC911DE02CE50028541F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "基础控件大小尺寸自适应/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDDCBC931DE02CE50028541F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "基础控件大小尺寸自适应Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/基础控件大小尺寸自适应.app/基础控件大小尺寸自适应";
+			};
+			name = Debug;
+		};
+		BDDCBC941DE02CE50028541F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "基础控件大小尺寸自适应Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/基础控件大小尺寸自适应.app/基础控件大小尺寸自适应";
+			};
+			name = Release;
+		};
+		BDDCBC961DE02CE50028541F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "基础控件大小尺寸自适应UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "基础控件大小尺寸自适应";
+			};
+			name = Debug;
+		};
+		BDDCBC971DE02CE50028541F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "基础控件大小尺寸自适应UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "基础控件大小尺寸自适应";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDDCBC5D1DE02CE50028541F /* Build configuration list for PBXProject "基础控件大小尺寸自适应" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDCBC8D1DE02CE50028541F /* Debug */,
+				BDDCBC8E1DE02CE50028541F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDCBC8F1DE02CE50028541F /* Build configuration list for PBXNativeTarget "基础控件大小尺寸自适应" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDCBC901DE02CE50028541F /* Debug */,
+				BDDCBC911DE02CE50028541F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDCBC921DE02CE50028541F /* Build configuration list for PBXNativeTarget "基础控件大小尺寸自适应Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDCBC931DE02CE50028541F /* Debug */,
+				BDDCBC941DE02CE50028541F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDCBC951DE02CE50028541F /* Build configuration list for PBXNativeTarget "基础控件大小尺寸自适应UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDCBC961DE02CE50028541F /* Debug */,
+				BDDCBC971DE02CE50028541F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDDCBC5A1DE02CE50028541F /* Project object */;
+}

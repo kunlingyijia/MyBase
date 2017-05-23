@@ -1,0 +1,17 @@
+target 'ShakeSDK' do
+platform:ios, '7.0'
+pod 'AFNetworking', '~> 2.3.1'
+pod 'ShareSDK2'
+ # Mob 公共库(必须) 如果同时集成SMSSDK iOS2.0:可看此注意事项：http://bbs.mob.c om/thread-20051-1-1.html
+ pod 'MOBFoundation'
+ 
+ pod 'ShareSDK2/UI/Flat'
+ pod 'ShareSDK2/UI/iPadDefault'
+ 
+
+ pod 'ShareSDK2/Connection/WeChat'
+
+
+
+
+end

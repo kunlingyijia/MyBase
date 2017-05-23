@@ -1,0 +1,6 @@
+target '七牛云'do
+platform :ios, "8.0" # 第一行指定平台和版本
+pod 'AFNetworking', '~> 3.0'
+pod "Qiniu", :git => 'https://github.com/qiniu/objc-sdk.git', :branch => 'AFNetworking-3.x'
+pod 'HappyDNS', '~> 0.2'
+end

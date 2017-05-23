@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="M25-Yp-lEF">
+                                <rect key="frame" x="70" y="120" width="460" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="of7-jg-SlF">
+                                <rect key="frame" x="100" y="440" width="400" height="60"/>
+                                <color key="backgroundColor" red="0.61632226235854648" green="1" blue="0.35837506504081174" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="OPe-Zs-qkc"/>
+                                </constraints>
+                                <state key="normal" title="分享"/>
+                                <connections>
+                                    <action selector="ShakeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Rd-AB-8mY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="of7-jg-SlF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="100" id="a8f-kJ-SbY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="of7-jg-SlF" secondAttribute="bottom" constant="100" id="f1E-Xi-2Ph"/>
+                            <constraint firstItem="M25-Yp-lEF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="gYh-1f-1Kf"/>
+                            <constraint firstItem="M25-Yp-lEF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="50" id="j5k-5r-f3z"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M25-Yp-lEF" secondAttribute="trailing" constant="50" id="lAg-oF-kAf"/>
+                            <constraint firstAttribute="trailing" secondItem="of7-jg-SlF" secondAttribute="trailing" constant="100" id="tUq-3k-dWn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Textfield" destination="M25-Yp-lEF" id="XDS-cl-092"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="219" y="339"/>
+        </scene>
+    </scenes>
+</document>

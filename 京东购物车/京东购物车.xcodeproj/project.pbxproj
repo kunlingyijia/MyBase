@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD0194121DE324180062F59B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0194111DE324180062F59B /* main.m */; };
+		BD0194151DE324180062F59B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0194141DE324180062F59B /* AppDelegate.m */; };
+		BD0194181DE324180062F59B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0194171DE324180062F59B /* ViewController.m */; };
+		BD01941B1DE324180062F59B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0194191DE324180062F59B /* Main.storyboard */; };
+		BD01941D1DE324180062F59B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD01941C1DE324180062F59B /* Assets.xcassets */; };
+		BD0194201DE324180062F59B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD01941E1DE324180062F59B /* LaunchScreen.storyboard */; };
+		BD01942B1DE324180062F59B /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD01942A1DE324180062F59B /* _____Tests.m */; };
+		BD0194361DE324180062F59B /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0194351DE324180062F59B /* _____UITests.m */; };
+		BD0194461DE324A70062F59B /* ShopCarController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0194441DE324A70062F59B /* ShopCarController.m */; };
+		BD0194471DE324A80062F59B /* ShopCarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0194451DE324A70062F59B /* ShopCarController.xib */; };
+		BD01944B1DE3260A0062F59B /* ShopCaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0194491DE3260A0062F59B /* ShopCaCell.m */; };
+		BD01944C1DE3260A0062F59B /* ShopCaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD01944A1DE3260A0062F59B /* ShopCaCell.xib */; };
+		BD0194541DE32C270062F59B /* PublicBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = BD0194531DE32C270062F59B /* PublicBtn.m */; };
+		BD0194561DE332930062F59B /* andriod@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0194551DE332930062F59B /* andriod@2x.png */; };
+		BD06FDF61E0A7A3800D9970A /* ShopEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD06FDF41E0A7A3800D9970A /* ShopEditViewController.m */; };
+		BD06FDF71E0A7A3800D9970A /* ShopEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD06FDF51E0A7A3800D9970A /* ShopEditViewController.xib */; };
+		BD06FDFA1E0ACC4A00D9970A /* HeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD06FDF91E0ACC4A00D9970A /* HeaderModel.m */; };
+		BD06FDFD1E0ACC5B00D9970A /* CarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD06FDFC1E0ACC5B00D9970A /* CarModel.m */; };
+		BD06FE041E0ACD7500D9970A /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD06FE001E0ACD7500D9970A /* NSObject+YYModel.m */; };
+		BD06FE051E0ACD7500D9970A /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = BD06FE021E0ACD7500D9970A /* YYClassInfo.m */; };
+		BD879D351DE4104200812067 /* HeaderCarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD879D341DE4104200812067 /* HeaderCarView.m */; };
+		BD87F3891DE67D0100C718B7 /* 购物车-减号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F37B1DE67D0100C718B7 /* 购物车-减号@2x.png */; };
+		BD87F38A1DE67D0100C718B7 /* 购物车-减号@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F37C1DE67D0100C718B7 /* 购物车-减号@3x.png */; };
+		BD87F38B1DE67D0100C718B7 /* 购物车-加号@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F37D1DE67D0100C718B7 /* 购物车-加号@2x.png */; };
+		BD87F38C1DE67D0100C718B7 /* 购物车-加号@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F37E1DE67D0100C718B7 /* 购物车-加号@3x.png */; };
+		BD87F38D1DE67D0100C718B7 /* 购物车-未选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F37F1DE67D0100C718B7 /* 购物车-未选中@2x.png */; };
+		BD87F38E1DE67D0100C718B7 /* 购物车-未选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F3801DE67D0100C718B7 /* 购物车-未选中@3x.png */; };
+		BD87F38F1DE67D0200C718B7 /* 购物车-消息@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F3811DE67D0100C718B7 /* 购物车-消息@2x.png */; };
+		BD87F3901DE67D0200C718B7 /* 购物车-消息@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F3821DE67D0100C718B7 /* 购物车-消息@3x.png */; };
+		BD87F3911DE67D0200C718B7 /* 购物车-空@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F3831DE67D0100C718B7 /* 购物车-空@2x.png */; };
+		BD87F3921DE67D0200C718B7 /* 购物车-空@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F3841DE67D0100C718B7 /* 购物车-空@3x.png */; };
+		BD87F3931DE67D0200C718B7 /* 购物车-选中打钩@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F3851DE67D0100C718B7 /* 购物车-选中打钩@2x.png */; };
+		BD87F3941DE67D0200C718B7 /* 购物车-选中打钩@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F3861DE67D0100C718B7 /* 购物车-选中打钩@3x.png */; };
+		BD87F3951DE67D0200C718B7 /* ２@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F3871DE67D0100C718B7 /* ２@2x.png */; };
+		BD87F3961DE67D0200C718B7 /* ２@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD87F3881DE67D0100C718B7 /* ２@3x.png */; };
+		BD87F39C1DE6D51800C718B7 /* PublicTF.m in Sources */ = {isa = PBXBuildFile; fileRef = BD87F39B1DE6D51800C718B7 /* PublicTF.m */; };
+		BD9AD6751E0B3A6C00578EC0 /* ShopCar.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD9AD6741E0B3A6C00578EC0 /* ShopCar.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD0194271DE324180062F59B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0194051DE324180062F59B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD01940C1DE324180062F59B;
+			remoteInfo = "京东购物车";
+		};
+		BD0194321DE324180062F59B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD0194051DE324180062F59B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD01940C1DE324180062F59B;
+			remoteInfo = "京东购物车";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD01940D1DE324180062F59B /* 京东购物车.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "京东购物车.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0194111DE324180062F59B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD0194131DE324180062F59B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD0194141DE324180062F59B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD0194161DE324180062F59B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD0194171DE324180062F59B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD01941A1DE324180062F59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD01941C1DE324180062F59B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD01941F1DE324180062F59B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD0194211DE324180062F59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0194261DE324180062F59B /* 京东购物车Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "京东购物车Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD01942A1DE324180062F59B /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		BD01942C1DE324180062F59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0194311DE324180062F59B /* 京东购物车UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "京东购物车UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD0194351DE324180062F59B /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		BD0194371DE324180062F59B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0194431DE324A70062F59B /* ShopCarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCarController.h; sourceTree = "<group>"; };
+		BD0194441DE324A70062F59B /* ShopCarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCarController.m; sourceTree = "<group>"; };
+		BD0194451DE324A70062F59B /* ShopCarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopCarController.xib; sourceTree = "<group>"; };
+		BD0194481DE3260A0062F59B /* ShopCaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopCaCell.h; sourceTree = "<group>"; };
+		BD0194491DE3260A0062F59B /* ShopCaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopCaCell.m; sourceTree = "<group>"; };
+		BD01944A1DE3260A0062F59B /* ShopCaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopCaCell.xib; sourceTree = "<group>"; };
+		BD0194521DE32C270062F59B /* PublicBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicBtn.h; sourceTree = "<group>"; };
+		BD0194531DE32C270062F59B /* PublicBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicBtn.m; sourceTree = "<group>"; };
+		BD0194551DE332930062F59B /* andriod@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "andriod@2x.png"; sourceTree = "<group>"; };
+		BD06FDF31E0A7A3800D9970A /* ShopEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopEditViewController.h; sourceTree = "<group>"; };
+		BD06FDF41E0A7A3800D9970A /* ShopEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopEditViewController.m; sourceTree = "<group>"; };
+		BD06FDF51E0A7A3800D9970A /* ShopEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopEditViewController.xib; sourceTree = "<group>"; };
+		BD06FDF81E0ACC4A00D9970A /* HeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderModel.h; sourceTree = "<group>"; };
+		BD06FDF91E0ACC4A00D9970A /* HeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderModel.m; sourceTree = "<group>"; };
+		BD06FDFB1E0ACC5B00D9970A /* CarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarModel.h; sourceTree = "<group>"; };
+		BD06FDFC1E0ACC5B00D9970A /* CarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarModel.m; sourceTree = "<group>"; };
+		BD06FDFF1E0ACD7500D9970A /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		BD06FE001E0ACD7500D9970A /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		BD06FE011E0ACD7500D9970A /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		BD06FE021E0ACD7500D9970A /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		BD06FE031E0ACD7500D9970A /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		BD879D331DE4104200812067 /* HeaderCarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderCarView.h; sourceTree = "<group>"; };
+		BD879D341DE4104200812067 /* HeaderCarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderCarView.m; sourceTree = "<group>"; };
+		BD87F37B1DE67D0100C718B7 /* 购物车-减号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车-减号@2x.png"; sourceTree = "<group>"; };
+		BD87F37C1DE67D0100C718B7 /* 购物车-减号@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车-减号@3x.png"; sourceTree = "<group>"; };
+		BD87F37D1DE67D0100C718B7 /* 购物车-加号@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车-加号@2x.png"; sourceTree = "<group>"; };
+		BD87F37E1DE67D0100C718B7 /* 购物车-加号@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车-加号@3x.png"; sourceTree = "<group>"; };
+		BD87F37F1DE67D0100C718B7 /* 购物车-未选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车-未选中@2x.png"; sourceTree = "<group>"; };
+		BD87F3801DE67D0100C718B7 /* 购物车-未选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车-未选中@3x.png"; sourceTree = "<group>"; };
+		BD87F3811DE67D0100C718B7 /* 购物车-消息@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车-消息@2x.png"; sourceTree = "<group>"; };
+		BD87F3821DE67D0100C718B7 /* 购物车-消息@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车-消息@3x.png"; sourceTree = "<group>"; };
+		BD87F3831DE67D0100C718B7 /* 购物车-空@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车-空@2x.png"; sourceTree = "<group>"; };
+		BD87F3841DE67D0100C718B7 /* 购物车-空@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车-空@3x.png"; sourceTree = "<group>"; };
+		BD87F3851DE67D0100C718B7 /* 购物车-选中打钩@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车-选中打钩@2x.png"; sourceTree = "<group>"; };
+		BD87F3861DE67D0100C718B7 /* 购物车-选中打钩@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "购物车-选中打钩@3x.png"; sourceTree = "<group>"; };
+		BD87F3871DE67D0100C718B7 /* ２@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "２@2x.png"; sourceTree = "<group>"; };
+		BD87F3881DE67D0100C718B7 /* ２@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "２@3x.png"; sourceTree = "<group>"; };
+		BD87F39A1DE6D51800C718B7 /* PublicTF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicTF.h; sourceTree = "<group>"; };
+		BD87F39B1DE6D51800C718B7 /* PublicTF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublicTF.m; sourceTree = "<group>"; };
+		BD9AD6741E0B3A6C00578EC0 /* ShopCar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ShopCar.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD01940A1DE324180062F59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0194231DE324180062F59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD01942E1DE324180062F59B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD0194041DE324180062F59B = {
+			isa = PBXGroup;
+			children = (
+				BD01940F1DE324180062F59B /* 京东购物车 */,
+				BD0194291DE324180062F59B /* 京东购物车Tests */,
+				BD0194341DE324180062F59B /* 京东购物车UITests */,
+				BD01940E1DE324180062F59B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD01940E1DE324180062F59B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD01940D1DE324180062F59B /* 京东购物车.app */,
+				BD0194261DE324180062F59B /* 京东购物车Tests.xctest */,
+				BD0194311DE324180062F59B /* 京东购物车UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD01940F1DE324180062F59B /* 京东购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				BD06FDFE1E0ACD7500D9970A /* YYModel */,
+				BD87F37A1DE67D0100C718B7 /* 购物车 */,
+				BD0194551DE332930062F59B /* andriod@2x.png */,
+				BD0194131DE324180062F59B /* AppDelegate.h */,
+				BD0194141DE324180062F59B /* AppDelegate.m */,
+				BD0194521DE32C270062F59B /* PublicBtn.h */,
+				BD0194531DE32C270062F59B /* PublicBtn.m */,
+				BD87F39A1DE6D51800C718B7 /* PublicTF.h */,
+				BD87F39B1DE6D51800C718B7 /* PublicTF.m */,
+				BD0194161DE324180062F59B /* ViewController.h */,
+				BD0194171DE324180062F59B /* ViewController.m */,
+				BD0194431DE324A70062F59B /* ShopCarController.h */,
+				BD0194441DE324A70062F59B /* ShopCarController.m */,
+				BD06FDF31E0A7A3800D9970A /* ShopEditViewController.h */,
+				BD06FDF41E0A7A3800D9970A /* ShopEditViewController.m */,
+				BD06FDF51E0A7A3800D9970A /* ShopEditViewController.xib */,
+				BD0194481DE3260A0062F59B /* ShopCaCell.h */,
+				BD0194491DE3260A0062F59B /* ShopCaCell.m */,
+				BD01944A1DE3260A0062F59B /* ShopCaCell.xib */,
+				BD0194451DE324A70062F59B /* ShopCarController.xib */,
+				BD879D331DE4104200812067 /* HeaderCarView.h */,
+				BD879D341DE4104200812067 /* HeaderCarView.m */,
+				BD06FDF81E0ACC4A00D9970A /* HeaderModel.h */,
+				BD06FDF91E0ACC4A00D9970A /* HeaderModel.m */,
+				BD06FDFB1E0ACC5B00D9970A /* CarModel.h */,
+				BD06FDFC1E0ACC5B00D9970A /* CarModel.m */,
+				BD0194191DE324180062F59B /* Main.storyboard */,
+				BD01941C1DE324180062F59B /* Assets.xcassets */,
+				BD01941E1DE324180062F59B /* LaunchScreen.storyboard */,
+				BD0194211DE324180062F59B /* Info.plist */,
+				BD9AD6741E0B3A6C00578EC0 /* ShopCar.plist */,
+				BD0194101DE324180062F59B /* Supporting Files */,
+			);
+			path = "京东购物车";
+			sourceTree = "<group>";
+		};
+		BD0194101DE324180062F59B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD0194111DE324180062F59B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD0194291DE324180062F59B /* 京东购物车Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD01942A1DE324180062F59B /* _____Tests.m */,
+				BD01942C1DE324180062F59B /* Info.plist */,
+			);
+			path = "京东购物车Tests";
+			sourceTree = "<group>";
+		};
+		BD0194341DE324180062F59B /* 京东购物车UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD0194351DE324180062F59B /* _____UITests.m */,
+				BD0194371DE324180062F59B /* Info.plist */,
+			);
+			path = "京东购物车UITests";
+			sourceTree = "<group>";
+		};
+		BD06FDFE1E0ACD7500D9970A /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				BD06FDFF1E0ACD7500D9970A /* NSObject+YYModel.h */,
+				BD06FE001E0ACD7500D9970A /* NSObject+YYModel.m */,
+				BD06FE011E0ACD7500D9970A /* YYClassInfo.h */,
+				BD06FE021E0ACD7500D9970A /* YYClassInfo.m */,
+				BD06FE031E0ACD7500D9970A /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		BD87F37A1DE67D0100C718B7 /* 购物车 */ = {
+			isa = PBXGroup;
+			children = (
+				BD87F37B1DE67D0100C718B7 /* 购物车-减号@2x.png */,
+				BD87F37C1DE67D0100C718B7 /* 购物车-减号@3x.png */,
+				BD87F37D1DE67D0100C718B7 /* 购物车-加号@2x.png */,
+				BD87F37E1DE67D0100C718B7 /* 购物车-加号@3x.png */,
+				BD87F37F1DE67D0100C718B7 /* 购物车-未选中@2x.png */,
+				BD87F3801DE67D0100C718B7 /* 购物车-未选中@3x.png */,
+				BD87F3811DE67D0100C718B7 /* 购物车-消息@2x.png */,
+				BD87F3821DE67D0100C718B7 /* 购物车-消息@3x.png */,
+				BD87F3831DE67D0100C718B7 /* 购物车-空@2x.png */,
+				BD87F3841DE67D0100C718B7 /* 购物车-空@3x.png */,
+				BD87F3851DE67D0100C718B7 /* 购物车-选中打钩@2x.png */,
+				BD87F3861DE67D0100C718B7 /* 购物车-选中打钩@3x.png */,
+				BD87F3871DE67D0100C718B7 /* ２@2x.png */,
+				BD87F3881DE67D0100C718B7 /* ２@3x.png */,
+			);
+			path = "购物车";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD01940C1DE324180062F59B /* 京东购物车 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD01943A1DE324180062F59B /* Build configuration list for PBXNativeTarget "京东购物车" */;
+			buildPhases = (
+				BD0194091DE324180062F59B /* Sources */,
+				BD01940A1DE324180062F59B /* Frameworks */,
+				BD01940B1DE324180062F59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "京东购物车";
+			productName = "京东购物车";
+			productReference = BD01940D1DE324180062F59B /* 京东购物车.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD0194251DE324180062F59B /* 京东购物车Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD01943D1DE324180062F59B /* Build configuration list for PBXNativeTarget "京东购物车Tests" */;
+			buildPhases = (
+				BD0194221DE324180062F59B /* Sources */,
+				BD0194231DE324180062F59B /* Frameworks */,
+				BD0194241DE324180062F59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0194281DE324180062F59B /* PBXTargetDependency */,
+			);
+			name = "京东购物车Tests";
+			productName = "京东购物车Tests";
+			productReference = BD0194261DE324180062F59B /* 京东购物车Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD0194301DE324180062F59B /* 京东购物车UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD0194401DE324180062F59B /* Build configuration list for PBXNativeTarget "京东购物车UITests" */;
+			buildPhases = (
+				BD01942D1DE324180062F59B /* Sources */,
+				BD01942E1DE324180062F59B /* Frameworks */,
+				BD01942F1DE324180062F59B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD0194331DE324180062F59B /* PBXTargetDependency */,
+			);
+			name = "京东购物车UITests";
+			productName = "京东购物车UITests";
+			productReference = BD0194311DE324180062F59B /* 京东购物车UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD0194051DE324180062F59B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "席亚坤";
+				TargetAttributes = {
+					BD01940C1DE324180062F59B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+					};
+					BD0194251DE324180062F59B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD01940C1DE324180062F59B;
+					};
+					BD0194301DE324180062F59B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD01940C1DE324180062F59B;
+					};
+				};
+			};
+			buildConfigurationList = BD0194081DE324180062F59B /* Build configuration list for PBXProject "京东购物车" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD0194041DE324180062F59B;
+			productRefGroup = BD01940E1DE324180062F59B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD01940C1DE324180062F59B /* 京东购物车 */,
+				BD0194251DE324180062F59B /* 京东购物车Tests */,
+				BD0194301DE324180062F59B /* 京东购物车UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD01940B1DE324180062F59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0194201DE324180062F59B /* LaunchScreen.storyboard in Resources */,
+				BD0194561DE332930062F59B /* andriod@2x.png in Resources */,
+				BD87F38B1DE67D0100C718B7 /* 购物车-加号@2x.png in Resources */,
+				BD87F3901DE67D0200C718B7 /* 购物车-消息@3x.png in Resources */,
+				BD87F3911DE67D0200C718B7 /* 购物车-空@2x.png in Resources */,
+				BD87F38A1DE67D0100C718B7 /* 购物车-减号@3x.png in Resources */,
+				BD87F38F1DE67D0200C718B7 /* 购物车-消息@2x.png in Resources */,
+				BD01941D1DE324180062F59B /* Assets.xcassets in Resources */,
+				BD87F3961DE67D0200C718B7 /* ２@3x.png in Resources */,
+				BD87F3951DE67D0200C718B7 /* ２@2x.png in Resources */,
+				BD87F3941DE67D0200C718B7 /* 购物车-选中打钩@3x.png in Resources */,
+				BD87F38E1DE67D0100C718B7 /* 购物车-未选中@3x.png in Resources */,
+				BD87F3931DE67D0200C718B7 /* 购物车-选中打钩@2x.png in Resources */,
+				BD87F38C1DE67D0100C718B7 /* 购物车-加号@3x.png in Resources */,
+				BD06FDF71E0A7A3800D9970A /* ShopEditViewController.xib in Resources */,
+				BD9AD6751E0B3A6C00578EC0 /* ShopCar.plist in Resources */,
+				BD87F38D1DE67D0100C718B7 /* 购物车-未选中@2x.png in Resources */,
+				BD87F3891DE67D0100C718B7 /* 购物车-减号@2x.png in Resources */,
+				BD01944C1DE3260A0062F59B /* ShopCaCell.xib in Resources */,
+				BD87F3921DE67D0200C718B7 /* 购物车-空@3x.png in Resources */,
+				BD0194471DE324A80062F59B /* ShopCarController.xib in Resources */,
+				BD01941B1DE324180062F59B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0194241DE324180062F59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD01942F1DE324180062F59B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD0194091DE324180062F59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD01944B1DE3260A0062F59B /* ShopCaCell.m in Sources */,
+				BD0194181DE324180062F59B /* ViewController.m in Sources */,
+				BD06FDFA1E0ACC4A00D9970A /* HeaderModel.m in Sources */,
+				BD06FE041E0ACD7500D9970A /* NSObject+YYModel.m in Sources */,
+				BD0194151DE324180062F59B /* AppDelegate.m in Sources */,
+				BD06FDF61E0A7A3800D9970A /* ShopEditViewController.m in Sources */,
+				BD879D351DE4104200812067 /* HeaderCarView.m in Sources */,
+				BD0194461DE324A70062F59B /* ShopCarController.m in Sources */,
+				BD0194541DE32C270062F59B /* PublicBtn.m in Sources */,
+				BD06FE051E0ACD7500D9970A /* YYClassInfo.m in Sources */,
+				BD06FDFD1E0ACC5B00D9970A /* CarModel.m in Sources */,
+				BD87F39C1DE6D51800C718B7 /* PublicTF.m in Sources */,
+				BD0194121DE324180062F59B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0194221DE324180062F59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD01942B1DE324180062F59B /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD01942D1DE324180062F59B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD0194361DE324180062F59B /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD0194281DE324180062F59B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD01940C1DE324180062F59B /* 京东购物车 */;
+			targetProxy = BD0194271DE324180062F59B /* PBXContainerItemProxy */;
+		};
+		BD0194331DE324180062F59B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD01940C1DE324180062F59B /* 京东购物车 */;
+			targetProxy = BD0194321DE324180062F59B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD0194191DE324180062F59B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD01941A1DE324180062F59B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD01941E1DE324180062F59B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD01941F1DE324180062F59B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD0194381DE324180062F59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD0194391DE324180062F59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD01943B1DE324180062F59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "京东购物车/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD01943C1DE324180062F59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "京东购物车/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD01943E1DE324180062F59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "京东购物车Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/京东购物车.app/京东购物车";
+			};
+			name = Debug;
+		};
+		BD01943F1DE324180062F59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "京东购物车Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/京东购物车.app/京东购物车";
+			};
+			name = Release;
+		};
+		BD0194411DE324180062F59B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "京东购物车UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "京东购物车";
+			};
+			name = Debug;
+		};
+		BD0194421DE324180062F59B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "京东购物车UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "京东购物车";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD0194081DE324180062F59B /* Build configuration list for PBXProject "京东购物车" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0194381DE324180062F59B /* Debug */,
+				BD0194391DE324180062F59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD01943A1DE324180062F59B /* Build configuration list for PBXNativeTarget "京东购物车" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD01943B1DE324180062F59B /* Debug */,
+				BD01943C1DE324180062F59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD01943D1DE324180062F59B /* Build configuration list for PBXNativeTarget "京东购物车Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD01943E1DE324180062F59B /* Debug */,
+				BD01943F1DE324180062F59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD0194401DE324180062F59B /* Build configuration list for PBXNativeTarget "京东购物车UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0194411DE324180062F59B /* Debug */,
+				BD0194421DE324180062F59B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD0194051DE324180062F59B /* Project object */;
+}

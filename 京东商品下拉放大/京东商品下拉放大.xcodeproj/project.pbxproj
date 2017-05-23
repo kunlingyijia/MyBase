@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD53DD521E11DA1000CFD8D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53DD511E11DA1000CFD8D4 /* main.m */; };
+		BD53DD551E11DA1000CFD8D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53DD541E11DA1000CFD8D4 /* AppDelegate.m */; };
+		BD53DD581E11DA1000CFD8D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53DD571E11DA1000CFD8D4 /* ViewController.m */; };
+		BD53DD5B1E11DA1000CFD8D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD53DD591E11DA1000CFD8D4 /* Main.storyboard */; };
+		BD53DD5D1E11DA1000CFD8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD53DD5C1E11DA1000CFD8D4 /* Assets.xcassets */; };
+		BD53DD601E11DA1000CFD8D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD53DD5E1E11DA1000CFD8D4 /* LaunchScreen.storyboard */; };
+		BD53DD6B1E11DA1000CFD8D4 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53DD6A1E11DA1000CFD8D4 /* ________Tests.m */; };
+		BD53DD761E11DA1000CFD8D4 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53DD751E11DA1000CFD8D4 /* ________UITests.m */; };
+		BD53DD861E11DA4A00CFD8D4 /* GoodsHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53DD841E11DA4A00CFD8D4 /* GoodsHomeViewController.m */; };
+		BD53DD871E11DA4A00CFD8D4 /* GoodsHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD53DD851E11DA4A00CFD8D4 /* GoodsHomeViewController.xib */; };
+		BD53DD8C1E11DAE100CFD8D4 /* Eason.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD53DD881E11DAE100CFD8D4 /* Eason.jpg */; };
+		BD53DD8D1E11DAE100CFD8D4 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD53DD8A1E11DAE100CFD8D4 /* FXBlurView.m */; };
+		BD53DD8E1E11DAE100CFD8D4 /* psds27713.png in Resources */ = {isa = PBXBuildFile; fileRef = BD53DD8B1E11DAE100CFD8D4 /* psds27713.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD53DD671E11DA1000CFD8D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD53DD451E11DA1000CFD8D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD53DD4C1E11DA1000CFD8D4;
+			remoteInfo = "京东商品下拉放大";
+		};
+		BD53DD721E11DA1000CFD8D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD53DD451E11DA1000CFD8D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD53DD4C1E11DA1000CFD8D4;
+			remoteInfo = "京东商品下拉放大";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD53DD4D1E11DA1000CFD8D4 /* 京东商品下拉放大.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "京东商品下拉放大.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD53DD511E11DA1000CFD8D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD53DD531E11DA1000CFD8D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD53DD541E11DA1000CFD8D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD53DD561E11DA1000CFD8D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD53DD571E11DA1000CFD8D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD53DD5A1E11DA1000CFD8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD53DD5C1E11DA1000CFD8D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD53DD5F1E11DA1000CFD8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD53DD611E11DA1000CFD8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD53DD661E11DA1000CFD8D4 /* 京东商品下拉放大Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "京东商品下拉放大Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD53DD6A1E11DA1000CFD8D4 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		BD53DD6C1E11DA1000CFD8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD53DD711E11DA1000CFD8D4 /* 京东商品下拉放大UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "京东商品下拉放大UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD53DD751E11DA1000CFD8D4 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		BD53DD771E11DA1000CFD8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD53DD831E11DA4A00CFD8D4 /* GoodsHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodsHomeViewController.h; sourceTree = "<group>"; };
+		BD53DD841E11DA4A00CFD8D4 /* GoodsHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodsHomeViewController.m; sourceTree = "<group>"; };
+		BD53DD851E11DA4A00CFD8D4 /* GoodsHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GoodsHomeViewController.xib; sourceTree = "<group>"; };
+		BD53DD881E11DAE100CFD8D4 /* Eason.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Eason.jpg; sourceTree = "<group>"; };
+		BD53DD891E11DAE100CFD8D4 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		BD53DD8A1E11DAE100CFD8D4 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		BD53DD8B1E11DAE100CFD8D4 /* psds27713.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = psds27713.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD53DD4A1E11DA1000CFD8D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD53DD631E11DA1000CFD8D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD53DD6E1E11DA1000CFD8D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD53DD441E11DA1000CFD8D4 = {
+			isa = PBXGroup;
+			children = (
+				BD53DD4F1E11DA1000CFD8D4 /* 京东商品下拉放大 */,
+				BD53DD691E11DA1000CFD8D4 /* 京东商品下拉放大Tests */,
+				BD53DD741E11DA1000CFD8D4 /* 京东商品下拉放大UITests */,
+				BD53DD4E1E11DA1000CFD8D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD53DD4E1E11DA1000CFD8D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD53DD4D1E11DA1000CFD8D4 /* 京东商品下拉放大.app */,
+				BD53DD661E11DA1000CFD8D4 /* 京东商品下拉放大Tests.xctest */,
+				BD53DD711E11DA1000CFD8D4 /* 京东商品下拉放大UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD53DD4F1E11DA1000CFD8D4 /* 京东商品下拉放大 */ = {
+			isa = PBXGroup;
+			children = (
+				BD53DD881E11DAE100CFD8D4 /* Eason.jpg */,
+				BD53DD891E11DAE100CFD8D4 /* FXBlurView.h */,
+				BD53DD8A1E11DAE100CFD8D4 /* FXBlurView.m */,
+				BD53DD8B1E11DAE100CFD8D4 /* psds27713.png */,
+				BD53DD531E11DA1000CFD8D4 /* AppDelegate.h */,
+				BD53DD541E11DA1000CFD8D4 /* AppDelegate.m */,
+				BD53DD561E11DA1000CFD8D4 /* ViewController.h */,
+				BD53DD571E11DA1000CFD8D4 /* ViewController.m */,
+				BD53DD831E11DA4A00CFD8D4 /* GoodsHomeViewController.h */,
+				BD53DD841E11DA4A00CFD8D4 /* GoodsHomeViewController.m */,
+				BD53DD851E11DA4A00CFD8D4 /* GoodsHomeViewController.xib */,
+				BD53DD591E11DA1000CFD8D4 /* Main.storyboard */,
+				BD53DD5C1E11DA1000CFD8D4 /* Assets.xcassets */,
+				BD53DD5E1E11DA1000CFD8D4 /* LaunchScreen.storyboard */,
+				BD53DD611E11DA1000CFD8D4 /* Info.plist */,
+				BD53DD501E11DA1000CFD8D4 /* Supporting Files */,
+			);
+			path = "京东商品下拉放大";
+			sourceTree = "<group>";
+		};
+		BD53DD501E11DA1000CFD8D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD53DD511E11DA1000CFD8D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD53DD691E11DA1000CFD8D4 /* 京东商品下拉放大Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD53DD6A1E11DA1000CFD8D4 /* ________Tests.m */,
+				BD53DD6C1E11DA1000CFD8D4 /* Info.plist */,
+			);
+			path = "京东商品下拉放大Tests";
+			sourceTree = "<group>";
+		};
+		BD53DD741E11DA1000CFD8D4 /* 京东商品下拉放大UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD53DD751E11DA1000CFD8D4 /* ________UITests.m */,
+				BD53DD771E11DA1000CFD8D4 /* Info.plist */,
+			);
+			path = "京东商品下拉放大UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD53DD4C1E11DA1000CFD8D4 /* 京东商品下拉放大 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD53DD7A1E11DA1000CFD8D4 /* Build configuration list for PBXNativeTarget "京东商品下拉放大" */;
+			buildPhases = (
+				BD53DD491E11DA1000CFD8D4 /* Sources */,
+				BD53DD4A1E11DA1000CFD8D4 /* Frameworks */,
+				BD53DD4B1E11DA1000CFD8D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "京东商品下拉放大";
+			productName = "京东商品下拉放大";
+			productReference = BD53DD4D1E11DA1000CFD8D4 /* 京东商品下拉放大.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD53DD651E11DA1000CFD8D4 /* 京东商品下拉放大Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD53DD7D1E11DA1000CFD8D4 /* Build configuration list for PBXNativeTarget "京东商品下拉放大Tests" */;
+			buildPhases = (
+				BD53DD621E11DA1000CFD8D4 /* Sources */,
+				BD53DD631E11DA1000CFD8D4 /* Frameworks */,
+				BD53DD641E11DA1000CFD8D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD53DD681E11DA1000CFD8D4 /* PBXTargetDependency */,
+			);
+			name = "京东商品下拉放大Tests";
+			productName = "京东商品下拉放大Tests";
+			productReference = BD53DD661E11DA1000CFD8D4 /* 京东商品下拉放大Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD53DD701E11DA1000CFD8D4 /* 京东商品下拉放大UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD53DD801E11DA1000CFD8D4 /* Build configuration list for PBXNativeTarget "京东商品下拉放大UITests" */;
+			buildPhases = (
+				BD53DD6D1E11DA1000CFD8D4 /* Sources */,
+				BD53DD6E1E11DA1000CFD8D4 /* Frameworks */,
+				BD53DD6F1E11DA1000CFD8D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD53DD731E11DA1000CFD8D4 /* PBXTargetDependency */,
+			);
+			name = "京东商品下拉放大UITests";
+			productName = "京东商品下拉放大UITests";
+			productReference = BD53DD711E11DA1000CFD8D4 /* 京东商品下拉放大UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD53DD451E11DA1000CFD8D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "席亚坤";
+				TargetAttributes = {
+					BD53DD4C1E11DA1000CFD8D4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+					};
+					BD53DD651E11DA1000CFD8D4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD53DD4C1E11DA1000CFD8D4;
+					};
+					BD53DD701E11DA1000CFD8D4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD53DD4C1E11DA1000CFD8D4;
+					};
+				};
+			};
+			buildConfigurationList = BD53DD481E11DA1000CFD8D4 /* Build configuration list for PBXProject "京东商品下拉放大" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD53DD441E11DA1000CFD8D4;
+			productRefGroup = BD53DD4E1E11DA1000CFD8D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD53DD4C1E11DA1000CFD8D4 /* 京东商品下拉放大 */,
+				BD53DD651E11DA1000CFD8D4 /* 京东商品下拉放大Tests */,
+				BD53DD701E11DA1000CFD8D4 /* 京东商品下拉放大UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD53DD4B1E11DA1000CFD8D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD53DD871E11DA4A00CFD8D4 /* GoodsHomeViewController.xib in Resources */,
+				BD53DD8C1E11DAE100CFD8D4 /* Eason.jpg in Resources */,
+				BD53DD601E11DA1000CFD8D4 /* LaunchScreen.storyboard in Resources */,
+				BD53DD5D1E11DA1000CFD8D4 /* Assets.xcassets in Resources */,
+				BD53DD8E1E11DAE100CFD8D4 /* psds27713.png in Resources */,
+				BD53DD5B1E11DA1000CFD8D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD53DD641E11DA1000CFD8D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD53DD6F1E11DA1000CFD8D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD53DD491E11DA1000CFD8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD53DD861E11DA4A00CFD8D4 /* GoodsHomeViewController.m in Sources */,
+				BD53DD581E11DA1000CFD8D4 /* ViewController.m in Sources */,
+				BD53DD8D1E11DAE100CFD8D4 /* FXBlurView.m in Sources */,
+				BD53DD551E11DA1000CFD8D4 /* AppDelegate.m in Sources */,
+				BD53DD521E11DA1000CFD8D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD53DD621E11DA1000CFD8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD53DD6B1E11DA1000CFD8D4 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD53DD6D1E11DA1000CFD8D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD53DD761E11DA1000CFD8D4 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD53DD681E11DA1000CFD8D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD53DD4C1E11DA1000CFD8D4 /* 京东商品下拉放大 */;
+			targetProxy = BD53DD671E11DA1000CFD8D4 /* PBXContainerItemProxy */;
+		};
+		BD53DD731E11DA1000CFD8D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD53DD4C1E11DA1000CFD8D4 /* 京东商品下拉放大 */;
+			targetProxy = BD53DD721E11DA1000CFD8D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD53DD591E11DA1000CFD8D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD53DD5A1E11DA1000CFD8D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD53DD5E1E11DA1000CFD8D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD53DD5F1E11DA1000CFD8D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD53DD781E11DA1000CFD8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD53DD791E11DA1000CFD8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD53DD7B1E11DA1000CFD8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "京东商品下拉放大/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD53DD7C1E11DA1000CFD8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "京东商品下拉放大/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD53DD7E1E11DA1000CFD8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "京东商品下拉放大Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/京东商品下拉放大.app/京东商品下拉放大";
+			};
+			name = Debug;
+		};
+		BD53DD7F1E11DA1000CFD8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "京东商品下拉放大Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/京东商品下拉放大.app/京东商品下拉放大";
+			};
+			name = Release;
+		};
+		BD53DD811E11DA1000CFD8D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "京东商品下拉放大UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "京东商品下拉放大";
+			};
+			name = Debug;
+		};
+		BD53DD821E11DA1000CFD8D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "京东商品下拉放大UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "京东商品下拉放大";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD53DD481E11DA1000CFD8D4 /* Build configuration list for PBXProject "京东商品下拉放大" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD53DD781E11DA1000CFD8D4 /* Debug */,
+				BD53DD791E11DA1000CFD8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD53DD7A1E11DA1000CFD8D4 /* Build configuration list for PBXNativeTarget "京东商品下拉放大" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD53DD7B1E11DA1000CFD8D4 /* Debug */,
+				BD53DD7C1E11DA1000CFD8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD53DD7D1E11DA1000CFD8D4 /* Build configuration list for PBXNativeTarget "京东商品下拉放大Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD53DD7E1E11DA1000CFD8D4 /* Debug */,
+				BD53DD7F1E11DA1000CFD8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD53DD801E11DA1000CFD8D4 /* Build configuration list for PBXNativeTarget "京东商品下拉放大UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD53DD811E11DA1000CFD8D4 /* Debug */,
+				BD53DD821E11DA1000CFD8D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD53DD451E11DA1000CFD8D4 /* Project object */;
+}

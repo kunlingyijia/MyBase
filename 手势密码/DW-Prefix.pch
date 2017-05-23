@@ -1,0 +1,74 @@
+//
+//  DW-Prefix.pch
+//  DWduifubao
+//
+//  Created by kkk on 16/9/8.
+//  Copyright © 2016年 bianming. All rights reserved.
+//
+
+
+#ifndef DW_Prefix_pch
+#define DW_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import <UIKit/UIKit.h>
+
+#import "Masonry.h"
+
+#import "UIColor+DWColor.h"
+
+#import "NIBHelper.h"
+//屏幕尺寸
+#define Bounds [UIScreen mainScreen].bounds
+#define Width [UIScreen mainScreen].bounds.size.width
+#define Height [UIScreen mainScreen].bounds.size.height
+#define PushLoginController LoginController *registerController = [[LoginController alloc] initWithNibName:@"LoginController" bundle:nil];[self.navigationController pushViewController:registerController animated:YES];
+
+#define iPhone5s ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+//色值
+#define kRedColor @"#f23030"                    //主色调(红)
+#define kViewBackgroundColor @"#f5f5f5"         //View块的背景色(灰)
+#define kViewLayerColor @"#dddddd"              //View块的边框色(灰)
+#define kPlaceholderColor @"#cccccc"            //提示文字的颜色(灰)
+#define ksubTitleColor @"#888888"               //二级字体颜色
+#define kLineColor @"#cbcbcb"                   //线条颜色(灰)
+#define kTitleColor @"#333333"        //导航框标题的颜色(黑)
+#define kblueColor @"##1c62b9"        //蓝色
+//字体大小
+#define kFirstTitleFont 18
+#define ksecondTitleFont 16
+#define kthirdTitleFont 14
+//比例
+#define IPHONE_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SizeScale ((IPHONE_HEIGHT > 568) ? IPHONE_HEIGHT/568 : 1)
+//字符串相关
+#define StrOfString(string) [NSString stringWithFormat:@"%@",(string)]
+#define StrOfInterger(interger)  [NSString stringWithFormat:@"%ld",(long)(interger)]
+#define StrOfFloat(float) [NSString stringWithFormat:@"%f",(float)]
+//Image相关
+#define IMG_Name(imgName)        [UIImage imageNamed:(imgName)]
+
+#define IMG_ImgWidth(img)        ((img).size.width)
+#define IMG_ImgHeight(img)       ((img).size.height)
+
+
+
+//内网http://dfb.dongwuit.com/?
+//外网https://api.zgduifubao.com/?
+//外网
+#define kServerUrl @"https://api.zgduifubao.com/?"
+//内网
+//#define kServerUrl @"http://dfb.dongwuit.com/?"
+//NSLog
+#ifndef __OPTIMIZE__
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...) {}
+#endif
+
+
+#endif /* DW_Prefix_pch */
+

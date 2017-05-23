@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD820CE01DE7FF5000288D32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD820CDF1DE7FF5000288D32 /* main.m */; };
+		BD820CE31DE7FF5000288D32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD820CE21DE7FF5000288D32 /* AppDelegate.m */; };
+		BD820CE91DE7FF5000288D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD820CE71DE7FF5000288D32 /* Main.storyboard */; };
+		BD820CEB1DE7FF5000288D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD820CEA1DE7FF5000288D32 /* Assets.xcassets */; };
+		BD820CEE1DE7FF5000288D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD820CEC1DE7FF5000288D32 /* LaunchScreen.storyboard */; };
+		BD820CF91DE7FF5000288D32 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD820CF81DE7FF5000288D32 /* _______Tests.m */; };
+		BD820D041DE7FF5000288D32 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD820D031DE7FF5000288D32 /* _______UITests.m */; };
+		BD820D131DE7FF9900288D32 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD820D121DE7FF9900288D32 /* TableViewController.m */; };
+		BD820D161DE7FFE900288D32 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD820D151DE7FFE900288D32 /* TableViewCell.m */; };
+		BD820D3A1DE8289D00288D32 /* line_center@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD820D321DE8289D00288D32 /* line_center@2x.png */; };
+		BD820D3B1DE8289D00288D32 /* line_center@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD820D331DE8289D00288D32 /* line_center@3x.png */; };
+		BD820D3C1DE8289D00288D32 /* line_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD820D341DE8289D00288D32 /* line_up@2x.png */; };
+		BD820D3D1DE8289D00288D32 /* line_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD820D351DE8289D00288D32 /* line_up@3x.png */; };
+		BD820D3E1DE8289D00288D32 /* red_line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD820D361DE8289D00288D32 /* red_line@2x.png */; };
+		BD820D3F1DE8289D00288D32 /* red_line@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD820D371DE8289D00288D32 /* red_line@3x.png */; };
+		BD820D401DE8289D00288D32 /* red_point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD820D381DE8289D00288D32 /* red_point@2x.png */; };
+		BD820D411DE8289D00288D32 /* red_point@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD820D391DE8289D00288D32 /* red_point@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD820CF51DE7FF5000288D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD820CD31DE7FF5000288D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD820CDA1DE7FF5000288D32;
+			remoteInfo = "物流订单时间轴";
+		};
+		BD820D001DE7FF5000288D32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD820CD31DE7FF5000288D32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD820CDA1DE7FF5000288D32;
+			remoteInfo = "物流订单时间轴";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD820CDB1DE7FF5000288D32 /* 物流订单时间轴.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "物流订单时间轴.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD820CDF1DE7FF5000288D32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD820CE11DE7FF5000288D32 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD820CE21DE7FF5000288D32 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD820CE81DE7FF5000288D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD820CEA1DE7FF5000288D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD820CED1DE7FF5000288D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD820CEF1DE7FF5000288D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD820CF41DE7FF5000288D32 /* 物流订单时间轴Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "物流订单时间轴Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD820CF81DE7FF5000288D32 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		BD820CFA1DE7FF5000288D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD820CFF1DE7FF5000288D32 /* 物流订单时间轴UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "物流订单时间轴UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD820D031DE7FF5000288D32 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		BD820D051DE7FF5000288D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD820D111DE7FF9900288D32 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		BD820D121DE7FF9900288D32 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		BD820D141DE7FFE900288D32 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		BD820D151DE7FFE900288D32 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		BD820D321DE8289D00288D32 /* line_center@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line_center@2x.png"; sourceTree = "<group>"; };
+		BD820D331DE8289D00288D32 /* line_center@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line_center@3x.png"; sourceTree = "<group>"; };
+		BD820D341DE8289D00288D32 /* line_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line_up@2x.png"; sourceTree = "<group>"; };
+		BD820D351DE8289D00288D32 /* line_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line_up@3x.png"; sourceTree = "<group>"; };
+		BD820D361DE8289D00288D32 /* red_line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_line@2x.png"; sourceTree = "<group>"; };
+		BD820D371DE8289D00288D32 /* red_line@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_line@3x.png"; sourceTree = "<group>"; };
+		BD820D381DE8289D00288D32 /* red_point@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_point@2x.png"; sourceTree = "<group>"; };
+		BD820D391DE8289D00288D32 /* red_point@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red_point@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD820CD81DE7FF5000288D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD820CF11DE7FF5000288D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD820CFC1DE7FF5000288D32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD820CD21DE7FF5000288D32 = {
+			isa = PBXGroup;
+			children = (
+				BD820CDD1DE7FF5000288D32 /* 物流订单时间轴 */,
+				BD820CF71DE7FF5000288D32 /* 物流订单时间轴Tests */,
+				BD820D021DE7FF5000288D32 /* 物流订单时间轴UITests */,
+				BD820CDC1DE7FF5000288D32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD820CDC1DE7FF5000288D32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD820CDB1DE7FF5000288D32 /* 物流订单时间轴.app */,
+				BD820CF41DE7FF5000288D32 /* 物流订单时间轴Tests.xctest */,
+				BD820CFF1DE7FF5000288D32 /* 物流订单时间轴UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD820CDD1DE7FF5000288D32 /* 物流订单时间轴 */ = {
+			isa = PBXGroup;
+			children = (
+				BD820D311DE8289D00288D32 /* 161125_iOS2 */,
+				BD820CE11DE7FF5000288D32 /* AppDelegate.h */,
+				BD820CE21DE7FF5000288D32 /* AppDelegate.m */,
+				BD820D111DE7FF9900288D32 /* TableViewController.h */,
+				BD820D121DE7FF9900288D32 /* TableViewController.m */,
+				BD820D141DE7FFE900288D32 /* TableViewCell.h */,
+				BD820D151DE7FFE900288D32 /* TableViewCell.m */,
+				BD820CE71DE7FF5000288D32 /* Main.storyboard */,
+				BD820CEA1DE7FF5000288D32 /* Assets.xcassets */,
+				BD820CEC1DE7FF5000288D32 /* LaunchScreen.storyboard */,
+				BD820CEF1DE7FF5000288D32 /* Info.plist */,
+				BD820CDE1DE7FF5000288D32 /* Supporting Files */,
+			);
+			path = "物流订单时间轴";
+			sourceTree = "<group>";
+		};
+		BD820CDE1DE7FF5000288D32 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD820CDF1DE7FF5000288D32 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD820CF71DE7FF5000288D32 /* 物流订单时间轴Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD820CF81DE7FF5000288D32 /* _______Tests.m */,
+				BD820CFA1DE7FF5000288D32 /* Info.plist */,
+			);
+			path = "物流订单时间轴Tests";
+			sourceTree = "<group>";
+		};
+		BD820D021DE7FF5000288D32 /* 物流订单时间轴UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD820D031DE7FF5000288D32 /* _______UITests.m */,
+				BD820D051DE7FF5000288D32 /* Info.plist */,
+			);
+			path = "物流订单时间轴UITests";
+			sourceTree = "<group>";
+		};
+		BD820D311DE8289D00288D32 /* 161125_iOS2 */ = {
+			isa = PBXGroup;
+			children = (
+				BD820D321DE8289D00288D32 /* line_center@2x.png */,
+				BD820D331DE8289D00288D32 /* line_center@3x.png */,
+				BD820D341DE8289D00288D32 /* line_up@2x.png */,
+				BD820D351DE8289D00288D32 /* line_up@3x.png */,
+				BD820D361DE8289D00288D32 /* red_line@2x.png */,
+				BD820D371DE8289D00288D32 /* red_line@3x.png */,
+				BD820D381DE8289D00288D32 /* red_point@2x.png */,
+				BD820D391DE8289D00288D32 /* red_point@3x.png */,
+			);
+			path = 161125_iOS2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD820CDA1DE7FF5000288D32 /* 物流订单时间轴 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD820D081DE7FF5000288D32 /* Build configuration list for PBXNativeTarget "物流订单时间轴" */;
+			buildPhases = (
+				BD820CD71DE7FF5000288D32 /* Sources */,
+				BD820CD81DE7FF5000288D32 /* Frameworks */,
+				BD820CD91DE7FF5000288D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "物流订单时间轴";
+			productName = "物流订单时间轴";
+			productReference = BD820CDB1DE7FF5000288D32 /* 物流订单时间轴.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD820CF31DE7FF5000288D32 /* 物流订单时间轴Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD820D0B1DE7FF5000288D32 /* Build configuration list for PBXNativeTarget "物流订单时间轴Tests" */;
+			buildPhases = (
+				BD820CF01DE7FF5000288D32 /* Sources */,
+				BD820CF11DE7FF5000288D32 /* Frameworks */,
+				BD820CF21DE7FF5000288D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD820CF61DE7FF5000288D32 /* PBXTargetDependency */,
+			);
+			name = "物流订单时间轴Tests";
+			productName = "物流订单时间轴Tests";
+			productReference = BD820CF41DE7FF5000288D32 /* 物流订单时间轴Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD820CFE1DE7FF5000288D32 /* 物流订单时间轴UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD820D0E1DE7FF5000288D32 /* Build configuration list for PBXNativeTarget "物流订单时间轴UITests" */;
+			buildPhases = (
+				BD820CFB1DE7FF5000288D32 /* Sources */,
+				BD820CFC1DE7FF5000288D32 /* Frameworks */,
+				BD820CFD1DE7FF5000288D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD820D011DE7FF5000288D32 /* PBXTargetDependency */,
+			);
+			name = "物流订单时间轴UITests";
+			productName = "物流订单时间轴UITests";
+			productReference = BD820CFF1DE7FF5000288D32 /* 物流订单时间轴UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD820CD31DE7FF5000288D32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "席亚坤";
+				TargetAttributes = {
+					BD820CDA1DE7FF5000288D32 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+					};
+					BD820CF31DE7FF5000288D32 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD820CDA1DE7FF5000288D32;
+					};
+					BD820CFE1DE7FF5000288D32 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD820CDA1DE7FF5000288D32;
+					};
+				};
+			};
+			buildConfigurationList = BD820CD61DE7FF5000288D32 /* Build configuration list for PBXProject "物流订单时间轴" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD820CD21DE7FF5000288D32;
+			productRefGroup = BD820CDC1DE7FF5000288D32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD820CDA1DE7FF5000288D32 /* 物流订单时间轴 */,
+				BD820CF31DE7FF5000288D32 /* 物流订单时间轴Tests */,
+				BD820CFE1DE7FF5000288D32 /* 物流订单时间轴UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD820CD91DE7FF5000288D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD820CEE1DE7FF5000288D32 /* LaunchScreen.storyboard in Resources */,
+				BD820D401DE8289D00288D32 /* red_point@2x.png in Resources */,
+				BD820D3F1DE8289D00288D32 /* red_line@3x.png in Resources */,
+				BD820CEB1DE7FF5000288D32 /* Assets.xcassets in Resources */,
+				BD820CE91DE7FF5000288D32 /* Main.storyboard in Resources */,
+				BD820D3C1DE8289D00288D32 /* line_up@2x.png in Resources */,
+				BD820D411DE8289D00288D32 /* red_point@3x.png in Resources */,
+				BD820D3A1DE8289D00288D32 /* line_center@2x.png in Resources */,
+				BD820D3D1DE8289D00288D32 /* line_up@3x.png in Resources */,
+				BD820D3E1DE8289D00288D32 /* red_line@2x.png in Resources */,
+				BD820D3B1DE8289D00288D32 /* line_center@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD820CF21DE7FF5000288D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD820CFD1DE7FF5000288D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD820CD71DE7FF5000288D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD820CE31DE7FF5000288D32 /* AppDelegate.m in Sources */,
+				BD820D161DE7FFE900288D32 /* TableViewCell.m in Sources */,
+				BD820D131DE7FF9900288D32 /* TableViewController.m in Sources */,
+				BD820CE01DE7FF5000288D32 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD820CF01DE7FF5000288D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD820CF91DE7FF5000288D32 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD820CFB1DE7FF5000288D32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD820D041DE7FF5000288D32 /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD820CF61DE7FF5000288D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD820CDA1DE7FF5000288D32 /* 物流订单时间轴 */;
+			targetProxy = BD820CF51DE7FF5000288D32 /* PBXContainerItemProxy */;
+		};
+		BD820D011DE7FF5000288D32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD820CDA1DE7FF5000288D32 /* 物流订单时间轴 */;
+			targetProxy = BD820D001DE7FF5000288D32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD820CE71DE7FF5000288D32 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD820CE81DE7FF5000288D32 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD820CEC1DE7FF5000288D32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD820CED1DE7FF5000288D32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD820D061DE7FF5000288D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD820D071DE7FF5000288D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD820D091DE7FF5000288D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "物流订单时间轴/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD820D0A1DE7FF5000288D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "物流订单时间轴/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD820D0C1DE7FF5000288D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "物流订单时间轴Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/物流订单时间轴.app/物流订单时间轴";
+			};
+			name = Debug;
+		};
+		BD820D0D1DE7FF5000288D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "物流订单时间轴Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/物流订单时间轴.app/物流订单时间轴";
+			};
+			name = Release;
+		};
+		BD820D0F1DE7FF5000288D32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "物流订单时间轴UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "物流订单时间轴";
+			};
+			name = Debug;
+		};
+		BD820D101DE7FF5000288D32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "物流订单时间轴UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "物流订单时间轴";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD820CD61DE7FF5000288D32 /* Build configuration list for PBXProject "物流订单时间轴" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD820D061DE7FF5000288D32 /* Debug */,
+				BD820D071DE7FF5000288D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD820D081DE7FF5000288D32 /* Build configuration list for PBXNativeTarget "物流订单时间轴" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD820D091DE7FF5000288D32 /* Debug */,
+				BD820D0A1DE7FF5000288D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD820D0B1DE7FF5000288D32 /* Build configuration list for PBXNativeTarget "物流订单时间轴Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD820D0C1DE7FF5000288D32 /* Debug */,
+				BD820D0D1DE7FF5000288D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD820D0E1DE7FF5000288D32 /* Build configuration list for PBXNativeTarget "物流订单时间轴UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD820D0F1DE7FF5000288D32 /* Debug */,
+				BD820D101DE7FF5000288D32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD820CD31DE7FF5000288D32 /* Project object */;
+}

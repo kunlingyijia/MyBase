@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2A02651E060E4400FBB983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02641E060E4400FBB983 /* main.m */; };
+		BD2A02681E060E4400FBB983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02671E060E4400FBB983 /* AppDelegate.m */; };
+		BD2A026B1E060E4400FBB983 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A026A1E060E4400FBB983 /* ViewController.m */; };
+		BD2A026E1E060E4400FBB983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2A026C1E060E4400FBB983 /* Main.storyboard */; };
+		BD2A02701E060E4400FBB983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD2A026F1E060E4400FBB983 /* Assets.xcassets */; };
+		BD2A02731E060E4400FBB983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02711E060E4400FBB983 /* LaunchScreen.storyboard */; };
+		BD2A027E1E060E4400FBB983 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A027D1E060E4400FBB983 /* ____Tests.m */; };
+		BD2A02891E060E4400FBB983 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02881E060E4400FBB983 /* ____UITests.m */; };
+		BD2A02991E060ED900FBB983 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02971E060ED900FBB983 /* LoginViewController.m */; };
+		BD2A029A1E060ED900FBB983 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02981E060ED900FBB983 /* LoginViewController.xib */; };
+		BD2A029E1E060F6600FBB983 /* GesturePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A029C1E060F6600FBB983 /* GesturePasswordViewController.m */; };
+		BD2A029F1E060F6600FBB983 /* GesturePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2A029D1E060F6600FBB983 /* GesturePasswordViewController.xib */; };
+		BD2A02B71E06119E00FBB983 /* GesturePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02A81E06119E00FBB983 /* GesturePasswordView.m */; };
+		BD2A02B81E06119E00FBB983 /* GesturePasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02A91E06119E00FBB983 /* GesturePasswordView.xib */; };
+		BD2A02B91E06119E00FBB983 /* GestureSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02AB1E06119E00FBB983 /* GestureSettingView.m */; };
+		BD2A02BA1E06119E00FBB983 /* GestureSettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02AC1E06119E00FBB983 /* GestureSettingView.xib */; };
+		BD2A02BB1E06119E00FBB983 /* GestureSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02AE1E06119E00FBB983 /* GestureSettingViewController.m */; };
+		BD2A02BC1E06119E00FBB983 /* GestureSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02AF1E06119E00FBB983 /* GestureSettingViewController.xib */; };
+		BD2A02BD1E06119E00FBB983 /* GestureVerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02B11E06119E00FBB983 /* GestureVerificationViewController.m */; };
+		BD2A02BE1E06119E00FBB983 /* GestureVerificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02B21E06119E00FBB983 /* GestureVerificationViewController.xib */; };
+		BD2A02C91E0611C100FBB983 /* 密码1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02C11E0611C100FBB983 /* 密码1@2x.png */; };
+		BD2A02CA1E0611C100FBB983 /* 密码1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02C21E0611C100FBB983 /* 密码1@3x.png */; };
+		BD2A02CB1E0611C100FBB983 /* 密码2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02C31E0611C100FBB983 /* 密码2@2x.png */; };
+		BD2A02CC1E0611C100FBB983 /* 密码2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02C41E0611C100FBB983 /* 密码2@3x.png */; };
+		BD2A02CD1E0611C100FBB983 /* 密码3.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02C51E0611C100FBB983 /* 密码3.png */; };
+		BD2A02CE1E0611C100FBB983 /* 密码3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02C61E0611C100FBB983 /* 密码3@2x.png */; };
+		BD2A02CF1E0611C100FBB983 /* JXGesturePasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02C81E0611C100FBB983 /* JXGesturePasswordView.m */; };
+		BD2A02D21E06131C00FBB983 /* NIBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02D11E06131C00FBB983 /* NIBHelper.m */; };
+		BD2A02F01E06151700FBB983 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BD2A02D41E06151700FBB983 /* LICENSE */; };
+		BD2A02F11E06151700FBB983 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02D71E06151700FBB983 /* MASCompositeConstraint.m */; };
+		BD2A02F21E06151700FBB983 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02DA1E06151700FBB983 /* MASConstraint.m */; };
+		BD2A02F31E06151700FBB983 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02DC1E06151700FBB983 /* MASConstraintMaker.m */; };
+		BD2A02F41E06151700FBB983 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02DE1E06151700FBB983 /* MASLayoutConstraint.m */; };
+		BD2A02F51E06151700FBB983 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02E21E06151700FBB983 /* MASViewAttribute.m */; };
+		BD2A02F61E06151700FBB983 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02E41E06151700FBB983 /* MASViewConstraint.m */; };
+		BD2A02F71E06151700FBB983 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02E61E06151700FBB983 /* NSArray+MASAdditions.m */; };
+		BD2A02F81E06151700FBB983 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02E91E06151700FBB983 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		BD2A02F91E06151700FBB983 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02EB1E06151700FBB983 /* View+MASAdditions.m */; };
+		BD2A02FA1E06151700FBB983 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02EE1E06151700FBB983 /* ViewController+MASAdditions.m */; };
+		BD2A02FB1E06151700FBB983 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02EF1E06151700FBB983 /* README.md */; };
+		BD2A02FF1E0616D800FBB983 /* UIColor+DWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2A02FE1E0616D800FBB983 /* UIColor+DWColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD2A027A1E060E4400FBB983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD2A02581E060E4400FBB983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2A025F1E060E4400FBB983;
+			remoteInfo = "手势密码";
+		};
+		BD2A02851E060E4400FBB983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD2A02581E060E4400FBB983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2A025F1E060E4400FBB983;
+			remoteInfo = "手势密码";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD2A02601E060E4400FBB983 /* 手势密码.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "手势密码.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2A02641E060E4400FBB983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD2A02661E060E4400FBB983 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD2A02671E060E4400FBB983 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD2A02691E060E4400FBB983 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD2A026A1E060E4400FBB983 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD2A026D1E060E4400FBB983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD2A026F1E060E4400FBB983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD2A02721E060E4400FBB983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD2A02741E060E4400FBB983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2A02791E060E4400FBB983 /* 手势密码Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手势密码Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2A027D1E060E4400FBB983 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		BD2A027F1E060E4400FBB983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2A02841E060E4400FBB983 /* 手势密码UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "手势密码UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD2A02881E060E4400FBB983 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		BD2A028A1E060E4400FBB983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2A02961E060ED900FBB983 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BD2A02971E060ED900FBB983 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BD2A02981E060ED900FBB983 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BD2A029B1E060F6600FBB983 /* GesturePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePasswordViewController.h; sourceTree = "<group>"; };
+		BD2A029C1E060F6600FBB983 /* GesturePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordViewController.m; sourceTree = "<group>"; };
+		BD2A029D1E060F6600FBB983 /* GesturePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GesturePasswordViewController.xib; sourceTree = "<group>"; };
+		BD2A02A71E06119E00FBB983 /* GesturePasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturePasswordView.h; sourceTree = "<group>"; };
+		BD2A02A81E06119E00FBB983 /* GesturePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturePasswordView.m; sourceTree = "<group>"; };
+		BD2A02A91E06119E00FBB983 /* GesturePasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GesturePasswordView.xib; sourceTree = "<group>"; };
+		BD2A02AA1E06119E00FBB983 /* GestureSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureSettingView.h; sourceTree = "<group>"; };
+		BD2A02AB1E06119E00FBB983 /* GestureSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureSettingView.m; sourceTree = "<group>"; };
+		BD2A02AC1E06119E00FBB983 /* GestureSettingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureSettingView.xib; sourceTree = "<group>"; };
+		BD2A02AD1E06119E00FBB983 /* GestureSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureSettingViewController.h; sourceTree = "<group>"; };
+		BD2A02AE1E06119E00FBB983 /* GestureSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureSettingViewController.m; sourceTree = "<group>"; };
+		BD2A02AF1E06119E00FBB983 /* GestureSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureSettingViewController.xib; sourceTree = "<group>"; };
+		BD2A02B01E06119E00FBB983 /* GestureVerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureVerificationViewController.h; sourceTree = "<group>"; };
+		BD2A02B11E06119E00FBB983 /* GestureVerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureVerificationViewController.m; sourceTree = "<group>"; };
+		BD2A02B21E06119E00FBB983 /* GestureVerificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureVerificationViewController.xib; sourceTree = "<group>"; };
+		BD2A02C11E0611C100FBB983 /* 密码1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码1@2x.png"; sourceTree = "<group>"; };
+		BD2A02C21E0611C100FBB983 /* 密码1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码1@3x.png"; sourceTree = "<group>"; };
+		BD2A02C31E0611C100FBB983 /* 密码2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码2@2x.png"; sourceTree = "<group>"; };
+		BD2A02C41E0611C100FBB983 /* 密码2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码2@3x.png"; sourceTree = "<group>"; };
+		BD2A02C51E0611C100FBB983 /* 密码3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码3.png"; sourceTree = "<group>"; };
+		BD2A02C61E0611C100FBB983 /* 密码3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码3@2x.png"; sourceTree = "<group>"; };
+		BD2A02C71E0611C100FBB983 /* JXGesturePasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXGesturePasswordView.h; sourceTree = "<group>"; };
+		BD2A02C81E0611C100FBB983 /* JXGesturePasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXGesturePasswordView.m; sourceTree = "<group>"; };
+		BD2A02D01E06131C00FBB983 /* NIBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIBHelper.h; sourceTree = "<group>"; };
+		BD2A02D11E06131C00FBB983 /* NIBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NIBHelper.m; sourceTree = "<group>"; };
+		BD2A02D41E06151700FBB983 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BD2A02D61E06151700FBB983 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		BD2A02D71E06151700FBB983 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		BD2A02D81E06151700FBB983 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		BD2A02D91E06151700FBB983 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		BD2A02DA1E06151700FBB983 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		BD2A02DB1E06151700FBB983 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		BD2A02DC1E06151700FBB983 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		BD2A02DD1E06151700FBB983 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		BD2A02DE1E06151700FBB983 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		BD2A02DF1E06151700FBB983 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		BD2A02E01E06151700FBB983 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		BD2A02E11E06151700FBB983 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		BD2A02E21E06151700FBB983 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		BD2A02E31E06151700FBB983 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		BD2A02E41E06151700FBB983 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		BD2A02E51E06151700FBB983 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		BD2A02E61E06151700FBB983 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		BD2A02E71E06151700FBB983 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BD2A02E81E06151700FBB983 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		BD2A02E91E06151700FBB983 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		BD2A02EA1E06151700FBB983 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		BD2A02EB1E06151700FBB983 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		BD2A02EC1E06151700FBB983 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		BD2A02ED1E06151700FBB983 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		BD2A02EE1E06151700FBB983 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		BD2A02EF1E06151700FBB983 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BD2A02FC1E06153100FBB983 /* DW-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DW-Prefix.pch"; sourceTree = "<group>"; };
+		BD2A02FD1E0616D800FBB983 /* UIColor+DWColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DWColor.h"; sourceTree = "<group>"; };
+		BD2A02FE1E0616D800FBB983 /* UIColor+DWColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DWColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD2A025D1E060E4400FBB983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2A02761E060E4400FBB983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2A02811E060E4400FBB983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD2A02571E060E4400FBB983 = {
+			isa = PBXGroup;
+			children = (
+				BD2A02FC1E06153100FBB983 /* DW-Prefix.pch */,
+				BD2A02FD1E0616D800FBB983 /* UIColor+DWColor.h */,
+				BD2A02FE1E0616D800FBB983 /* UIColor+DWColor.m */,
+				BD2A02D31E06151700FBB983 /* Masonry */,
+				BD2A02621E060E4400FBB983 /* 手势密码 */,
+				BD2A027C1E060E4400FBB983 /* 手势密码Tests */,
+				BD2A02871E060E4400FBB983 /* 手势密码UITests */,
+				BD2A02611E060E4400FBB983 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD2A02611E060E4400FBB983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD2A02601E060E4400FBB983 /* 手势密码.app */,
+				BD2A02791E060E4400FBB983 /* 手势密码Tests.xctest */,
+				BD2A02841E060E4400FBB983 /* 手势密码UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD2A02621E060E4400FBB983 /* 手势密码 */ = {
+			isa = PBXGroup;
+			children = (
+				BD2A02D01E06131C00FBB983 /* NIBHelper.h */,
+				BD2A02D11E06131C00FBB983 /* NIBHelper.m */,
+				BD2A02BF1E0611C100FBB983 /* 手势Password */,
+				BD2A02A01E06119E00FBB983 /* 手势密码 */,
+				BD2A02661E060E4400FBB983 /* AppDelegate.h */,
+				BD2A02671E060E4400FBB983 /* AppDelegate.m */,
+				BD2A02691E060E4400FBB983 /* ViewController.h */,
+				BD2A026A1E060E4400FBB983 /* ViewController.m */,
+				BD2A02961E060ED900FBB983 /* LoginViewController.h */,
+				BD2A02971E060ED900FBB983 /* LoginViewController.m */,
+				BD2A02981E060ED900FBB983 /* LoginViewController.xib */,
+				BD2A029B1E060F6600FBB983 /* GesturePasswordViewController.h */,
+				BD2A029C1E060F6600FBB983 /* GesturePasswordViewController.m */,
+				BD2A029D1E060F6600FBB983 /* GesturePasswordViewController.xib */,
+				BD2A026C1E060E4400FBB983 /* Main.storyboard */,
+				BD2A026F1E060E4400FBB983 /* Assets.xcassets */,
+				BD2A02711E060E4400FBB983 /* LaunchScreen.storyboard */,
+				BD2A02741E060E4400FBB983 /* Info.plist */,
+				BD2A02631E060E4400FBB983 /* Supporting Files */,
+			);
+			path = "手势密码";
+			sourceTree = "<group>";
+		};
+		BD2A02631E060E4400FBB983 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD2A02641E060E4400FBB983 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD2A027C1E060E4400FBB983 /* 手势密码Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD2A027D1E060E4400FBB983 /* ____Tests.m */,
+				BD2A027F1E060E4400FBB983 /* Info.plist */,
+			);
+			path = "手势密码Tests";
+			sourceTree = "<group>";
+		};
+		BD2A02871E060E4400FBB983 /* 手势密码UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD2A02881E060E4400FBB983 /* ____UITests.m */,
+				BD2A028A1E060E4400FBB983 /* Info.plist */,
+			);
+			path = "手势密码UITests";
+			sourceTree = "<group>";
+		};
+		BD2A02A01E06119E00FBB983 /* 手势密码 */ = {
+			isa = PBXGroup;
+			children = (
+				BD2A02A71E06119E00FBB983 /* GesturePasswordView.h */,
+				BD2A02A81E06119E00FBB983 /* GesturePasswordView.m */,
+				BD2A02A91E06119E00FBB983 /* GesturePasswordView.xib */,
+				BD2A02AA1E06119E00FBB983 /* GestureSettingView.h */,
+				BD2A02AB1E06119E00FBB983 /* GestureSettingView.m */,
+				BD2A02AC1E06119E00FBB983 /* GestureSettingView.xib */,
+				BD2A02AD1E06119E00FBB983 /* GestureSettingViewController.h */,
+				BD2A02AE1E06119E00FBB983 /* GestureSettingViewController.m */,
+				BD2A02AF1E06119E00FBB983 /* GestureSettingViewController.xib */,
+				BD2A02B01E06119E00FBB983 /* GestureVerificationViewController.h */,
+				BD2A02B11E06119E00FBB983 /* GestureVerificationViewController.m */,
+				BD2A02B21E06119E00FBB983 /* GestureVerificationViewController.xib */,
+			);
+			path = "手势密码";
+			sourceTree = "<group>";
+		};
+		BD2A02BF1E0611C100FBB983 /* 手势Password */ = {
+			isa = PBXGroup;
+			children = (
+				BD2A02C01E0611C100FBB983 /* images */,
+				BD2A02C71E0611C100FBB983 /* JXGesturePasswordView.h */,
+				BD2A02C81E0611C100FBB983 /* JXGesturePasswordView.m */,
+			);
+			path = "手势Password";
+			sourceTree = "<group>";
+		};
+		BD2A02C01E0611C100FBB983 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BD2A02C11E0611C100FBB983 /* 密码1@2x.png */,
+				BD2A02C21E0611C100FBB983 /* 密码1@3x.png */,
+				BD2A02C31E0611C100FBB983 /* 密码2@2x.png */,
+				BD2A02C41E0611C100FBB983 /* 密码2@3x.png */,
+				BD2A02C51E0611C100FBB983 /* 密码3.png */,
+				BD2A02C61E0611C100FBB983 /* 密码3@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		BD2A02D31E06151700FBB983 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				BD2A02D41E06151700FBB983 /* LICENSE */,
+				BD2A02D51E06151700FBB983 /* Masonry */,
+				BD2A02EF1E06151700FBB983 /* README.md */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		BD2A02D51E06151700FBB983 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				BD2A02D61E06151700FBB983 /* MASCompositeConstraint.h */,
+				BD2A02D71E06151700FBB983 /* MASCompositeConstraint.m */,
+				BD2A02D81E06151700FBB983 /* MASConstraint+Private.h */,
+				BD2A02D91E06151700FBB983 /* MASConstraint.h */,
+				BD2A02DA1E06151700FBB983 /* MASConstraint.m */,
+				BD2A02DB1E06151700FBB983 /* MASConstraintMaker.h */,
+				BD2A02DC1E06151700FBB983 /* MASConstraintMaker.m */,
+				BD2A02DD1E06151700FBB983 /* MASLayoutConstraint.h */,
+				BD2A02DE1E06151700FBB983 /* MASLayoutConstraint.m */,
+				BD2A02DF1E06151700FBB983 /* Masonry.h */,
+				BD2A02E01E06151700FBB983 /* MASUtilities.h */,
+				BD2A02E11E06151700FBB983 /* MASViewAttribute.h */,
+				BD2A02E21E06151700FBB983 /* MASViewAttribute.m */,
+				BD2A02E31E06151700FBB983 /* MASViewConstraint.h */,
+				BD2A02E41E06151700FBB983 /* MASViewConstraint.m */,
+				BD2A02E51E06151700FBB983 /* NSArray+MASAdditions.h */,
+				BD2A02E61E06151700FBB983 /* NSArray+MASAdditions.m */,
+				BD2A02E71E06151700FBB983 /* NSArray+MASShorthandAdditions.h */,
+				BD2A02E81E06151700FBB983 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				BD2A02E91E06151700FBB983 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				BD2A02EA1E06151700FBB983 /* View+MASAdditions.h */,
+				BD2A02EB1E06151700FBB983 /* View+MASAdditions.m */,
+				BD2A02EC1E06151700FBB983 /* View+MASShorthandAdditions.h */,
+				BD2A02ED1E06151700FBB983 /* ViewController+MASAdditions.h */,
+				BD2A02EE1E06151700FBB983 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD2A025F1E060E4400FBB983 /* 手势密码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2A028D1E060E4400FBB983 /* Build configuration list for PBXNativeTarget "手势密码" */;
+			buildPhases = (
+				BD2A025C1E060E4400FBB983 /* Sources */,
+				BD2A025D1E060E4400FBB983 /* Frameworks */,
+				BD2A025E1E060E4400FBB983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "手势密码";
+			productName = "手势密码";
+			productReference = BD2A02601E060E4400FBB983 /* 手势密码.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD2A02781E060E4400FBB983 /* 手势密码Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2A02901E060E4400FBB983 /* Build configuration list for PBXNativeTarget "手势密码Tests" */;
+			buildPhases = (
+				BD2A02751E060E4400FBB983 /* Sources */,
+				BD2A02761E060E4400FBB983 /* Frameworks */,
+				BD2A02771E060E4400FBB983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2A027B1E060E4400FBB983 /* PBXTargetDependency */,
+			);
+			name = "手势密码Tests";
+			productName = "手势密码Tests";
+			productReference = BD2A02791E060E4400FBB983 /* 手势密码Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD2A02831E060E4400FBB983 /* 手势密码UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD2A02931E060E4400FBB983 /* Build configuration list for PBXNativeTarget "手势密码UITests" */;
+			buildPhases = (
+				BD2A02801E060E4400FBB983 /* Sources */,
+				BD2A02811E060E4400FBB983 /* Frameworks */,
+				BD2A02821E060E4400FBB983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2A02861E060E4400FBB983 /* PBXTargetDependency */,
+			);
+			name = "手势密码UITests";
+			productName = "手势密码UITests";
+			productReference = BD2A02841E060E4400FBB983 /* 手势密码UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD2A02581E060E4400FBB983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "席亚坤";
+				TargetAttributes = {
+					BD2A025F1E060E4400FBB983 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+					};
+					BD2A02781E060E4400FBB983 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD2A025F1E060E4400FBB983;
+					};
+					BD2A02831E060E4400FBB983 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD2A025F1E060E4400FBB983;
+					};
+				};
+			};
+			buildConfigurationList = BD2A025B1E060E4400FBB983 /* Build configuration list for PBXProject "手势密码" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD2A02571E060E4400FBB983;
+			productRefGroup = BD2A02611E060E4400FBB983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD2A025F1E060E4400FBB983 /* 手势密码 */,
+				BD2A02781E060E4400FBB983 /* 手势密码Tests */,
+				BD2A02831E060E4400FBB983 /* 手势密码UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD2A025E1E060E4400FBB983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2A02CE1E0611C100FBB983 /* 密码3@2x.png in Resources */,
+				BD2A02BC1E06119E00FBB983 /* GestureSettingViewController.xib in Resources */,
+				BD2A02CA1E0611C100FBB983 /* 密码1@3x.png in Resources */,
+				BD2A02BA1E06119E00FBB983 /* GestureSettingView.xib in Resources */,
+				BD2A029F1E060F6600FBB983 /* GesturePasswordViewController.xib in Resources */,
+				BD2A02CD1E0611C100FBB983 /* 密码3.png in Resources */,
+				BD2A02C91E0611C100FBB983 /* 密码1@2x.png in Resources */,
+				BD2A02BE1E06119E00FBB983 /* GestureVerificationViewController.xib in Resources */,
+				BD2A02CB1E0611C100FBB983 /* 密码2@2x.png in Resources */,
+				BD2A02CC1E0611C100FBB983 /* 密码2@3x.png in Resources */,
+				BD2A02F01E06151700FBB983 /* LICENSE in Resources */,
+				BD2A029A1E060ED900FBB983 /* LoginViewController.xib in Resources */,
+				BD2A02731E060E4400FBB983 /* LaunchScreen.storyboard in Resources */,
+				BD2A02701E060E4400FBB983 /* Assets.xcassets in Resources */,
+				BD2A02B81E06119E00FBB983 /* GesturePasswordView.xib in Resources */,
+				BD2A026E1E060E4400FBB983 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2A02771E060E4400FBB983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2A02821E060E4400FBB983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD2A025C1E060E4400FBB983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2A02B91E06119E00FBB983 /* GestureSettingView.m in Sources */,
+				BD2A029E1E060F6600FBB983 /* GesturePasswordViewController.m in Sources */,
+				BD2A02FF1E0616D800FBB983 /* UIColor+DWColor.m in Sources */,
+				BD2A02BB1E06119E00FBB983 /* GestureSettingViewController.m in Sources */,
+				BD2A02991E060ED900FBB983 /* LoginViewController.m in Sources */,
+				BD2A02F11E06151700FBB983 /* MASCompositeConstraint.m in Sources */,
+				BD2A02D21E06131C00FBB983 /* NIBHelper.m in Sources */,
+				BD2A02F61E06151700FBB983 /* MASViewConstraint.m in Sources */,
+				BD2A026B1E060E4400FBB983 /* ViewController.m in Sources */,
+				BD2A02F91E06151700FBB983 /* View+MASAdditions.m in Sources */,
+				BD2A02F81E06151700FBB983 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				BD2A02F41E06151700FBB983 /* MASLayoutConstraint.m in Sources */,
+				BD2A02FA1E06151700FBB983 /* ViewController+MASAdditions.m in Sources */,
+				BD2A02F31E06151700FBB983 /* MASConstraintMaker.m in Sources */,
+				BD2A02B71E06119E00FBB983 /* GesturePasswordView.m in Sources */,
+				BD2A02681E060E4400FBB983 /* AppDelegate.m in Sources */,
+				BD2A02CF1E0611C100FBB983 /* JXGesturePasswordView.m in Sources */,
+				BD2A02651E060E4400FBB983 /* main.m in Sources */,
+				BD2A02F71E06151700FBB983 /* NSArray+MASAdditions.m in Sources */,
+				BD2A02F51E06151700FBB983 /* MASViewAttribute.m in Sources */,
+				BD2A02BD1E06119E00FBB983 /* GestureVerificationViewController.m in Sources */,
+				BD2A02FB1E06151700FBB983 /* README.md in Sources */,
+				BD2A02F21E06151700FBB983 /* MASConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2A02751E060E4400FBB983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2A027E1E060E4400FBB983 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD2A02801E060E4400FBB983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD2A02891E060E4400FBB983 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD2A027B1E060E4400FBB983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2A025F1E060E4400FBB983 /* 手势密码 */;
+			targetProxy = BD2A027A1E060E4400FBB983 /* PBXContainerItemProxy */;
+		};
+		BD2A02861E060E4400FBB983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2A025F1E060E4400FBB983 /* 手势密码 */;
+			targetProxy = BD2A02851E060E4400FBB983 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD2A026C1E060E4400FBB983 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2A026D1E060E4400FBB983 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD2A02711E060E4400FBB983 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD2A02721E060E4400FBB983 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD2A028B1E060E4400FBB983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD2A028C1E060E4400FBB983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD2A028E1E060E4400FBB983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				GCC_PREFIX_HEADER = "/Users/xiyakun/Desktop/手势密码/DW-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/xiyakun/Desktop/手势密码/DW-Prefix.pch";
+				INFOPLIST_FILE = "手势密码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/xiyakun/Desktop/手势密码/DW-Prefix.pch";
+			};
+			name = Debug;
+		};
+		BD2A028F1E060E4400FBB983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				GCC_PREFIX_HEADER = "/Users/xiyakun/Desktop/手势密码/DW-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/Users/xiyakun/Desktop/手势密码/DW-Prefix.pch";
+				INFOPLIST_FILE = "手势密码/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/Users/xiyakun/Desktop/手势密码/DW-Prefix.pch";
+			};
+			name = Release;
+		};
+		BD2A02911E060E4400FBB983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "手势密码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/手势密码.app/手势密码";
+			};
+			name = Debug;
+		};
+		BD2A02921E060E4400FBB983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "手势密码Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/手势密码.app/手势密码";
+			};
+			name = Release;
+		};
+		BD2A02941E060E4400FBB983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "手势密码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "手势密码";
+			};
+			name = Debug;
+		};
+		BD2A02951E060E4400FBB983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "手势密码UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "手势密码";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD2A025B1E060E4400FBB983 /* Build configuration list for PBXProject "手势密码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2A028B1E060E4400FBB983 /* Debug */,
+				BD2A028C1E060E4400FBB983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD2A028D1E060E4400FBB983 /* Build configuration list for PBXNativeTarget "手势密码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2A028E1E060E4400FBB983 /* Debug */,
+				BD2A028F1E060E4400FBB983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD2A02901E060E4400FBB983 /* Build configuration list for PBXNativeTarget "手势密码Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2A02911E060E4400FBB983 /* Debug */,
+				BD2A02921E060E4400FBB983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD2A02931E060E4400FBB983 /* Build configuration list for PBXNativeTarget "手势密码UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD2A02941E060E4400FBB983 /* Debug */,
+				BD2A02951E060E4400FBB983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD2A02581E060E4400FBB983 /* Project object */;
+}

@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD62E2281CA62FC00054FA68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD62E2271CA62FC00054FA68 /* main.m */; };
+		BD62E22B1CA62FC00054FA68 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD62E22A1CA62FC00054FA68 /* AppDelegate.m */; };
+		BD62E22E1CA62FC00054FA68 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD62E22D1CA62FC00054FA68 /* ViewController.m */; };
+		BD62E2311CA62FC00054FA68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD62E22F1CA62FC00054FA68 /* Main.storyboard */; };
+		BD62E2341CA62FC00054FA68 /* CAShapeLayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD62E2321CA62FC00054FA68 /* CAShapeLayer.xcdatamodeld */; };
+		BD62E2361CA62FC00054FA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD62E2351CA62FC00054FA68 /* Assets.xcassets */; };
+		BD62E2391CA62FC00054FA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD62E2371CA62FC00054FA68 /* LaunchScreen.storyboard */; };
+		BD62E2441CA62FC00054FA68 /* CAShapeLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD62E2431CA62FC00054FA68 /* CAShapeLayerTests.m */; };
+		BD62E24F1CA62FC00054FA68 /* CAShapeLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD62E24E1CA62FC00054FA68 /* CAShapeLayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD62E2401CA62FC00054FA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD62E21B1CA62FC00054FA68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD62E2221CA62FC00054FA68;
+			remoteInfo = CAShapeLayer;
+		};
+		BD62E24B1CA62FC00054FA68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD62E21B1CA62FC00054FA68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD62E2221CA62FC00054FA68;
+			remoteInfo = CAShapeLayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD62E2231CA62FC00054FA68 /* CAShapeLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAShapeLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD62E2271CA62FC00054FA68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD62E2291CA62FC00054FA68 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD62E22A1CA62FC00054FA68 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD62E22C1CA62FC00054FA68 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD62E22D1CA62FC00054FA68 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD62E2301CA62FC00054FA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD62E2331CA62FC00054FA68 /* CAShapeLayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CAShapeLayer.xcdatamodel; sourceTree = "<group>"; };
+		BD62E2351CA62FC00054FA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD62E2381CA62FC00054FA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD62E23A1CA62FC00054FA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD62E23F1CA62FC00054FA68 /* CAShapeLayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapeLayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD62E2431CA62FC00054FA68 /* CAShapeLayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerTests.m; sourceTree = "<group>"; };
+		BD62E2451CA62FC00054FA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD62E24A1CA62FC00054FA68 /* CAShapeLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAShapeLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD62E24E1CA62FC00054FA68 /* CAShapeLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerUITests.m; sourceTree = "<group>"; };
+		BD62E2501CA62FC00054FA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD62E2201CA62FC00054FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD62E23C1CA62FC00054FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD62E2471CA62FC00054FA68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD62E21A1CA62FC00054FA68 = {
+			isa = PBXGroup;
+			children = (
+				BD62E2251CA62FC00054FA68 /* CAShapeLayer */,
+				BD62E2421CA62FC00054FA68 /* CAShapeLayerTests */,
+				BD62E24D1CA62FC00054FA68 /* CAShapeLayerUITests */,
+				BD62E2241CA62FC00054FA68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD62E2241CA62FC00054FA68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD62E2231CA62FC00054FA68 /* CAShapeLayer.app */,
+				BD62E23F1CA62FC00054FA68 /* CAShapeLayerTests.xctest */,
+				BD62E24A1CA62FC00054FA68 /* CAShapeLayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD62E2251CA62FC00054FA68 /* CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				BD62E2291CA62FC00054FA68 /* AppDelegate.h */,
+				BD62E22A1CA62FC00054FA68 /* AppDelegate.m */,
+				BD62E22C1CA62FC00054FA68 /* ViewController.h */,
+				BD62E22D1CA62FC00054FA68 /* ViewController.m */,
+				BD62E22F1CA62FC00054FA68 /* Main.storyboard */,
+				BD62E2351CA62FC00054FA68 /* Assets.xcassets */,
+				BD62E2371CA62FC00054FA68 /* LaunchScreen.storyboard */,
+				BD62E23A1CA62FC00054FA68 /* Info.plist */,
+				BD62E2321CA62FC00054FA68 /* CAShapeLayer.xcdatamodeld */,
+				BD62E2261CA62FC00054FA68 /* Supporting Files */,
+			);
+			path = CAShapeLayer;
+			sourceTree = "<group>";
+		};
+		BD62E2261CA62FC00054FA68 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD62E2271CA62FC00054FA68 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD62E2421CA62FC00054FA68 /* CAShapeLayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD62E2431CA62FC00054FA68 /* CAShapeLayerTests.m */,
+				BD62E2451CA62FC00054FA68 /* Info.plist */,
+			);
+			path = CAShapeLayerTests;
+			sourceTree = "<group>";
+		};
+		BD62E24D1CA62FC00054FA68 /* CAShapeLayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD62E24E1CA62FC00054FA68 /* CAShapeLayerUITests.m */,
+				BD62E2501CA62FC00054FA68 /* Info.plist */,
+			);
+			path = CAShapeLayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD62E2221CA62FC00054FA68 /* CAShapeLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD62E2531CA62FC00054FA68 /* Build configuration list for PBXNativeTarget "CAShapeLayer" */;
+			buildPhases = (
+				BD62E21F1CA62FC00054FA68 /* Sources */,
+				BD62E2201CA62FC00054FA68 /* Frameworks */,
+				BD62E2211CA62FC00054FA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAShapeLayer;
+			productName = CAShapeLayer;
+			productReference = BD62E2231CA62FC00054FA68 /* CAShapeLayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD62E23E1CA62FC00054FA68 /* CAShapeLayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD62E2561CA62FC00054FA68 /* Build configuration list for PBXNativeTarget "CAShapeLayerTests" */;
+			buildPhases = (
+				BD62E23B1CA62FC00054FA68 /* Sources */,
+				BD62E23C1CA62FC00054FA68 /* Frameworks */,
+				BD62E23D1CA62FC00054FA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD62E2411CA62FC00054FA68 /* PBXTargetDependency */,
+			);
+			name = CAShapeLayerTests;
+			productName = CAShapeLayerTests;
+			productReference = BD62E23F1CA62FC00054FA68 /* CAShapeLayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD62E2491CA62FC00054FA68 /* CAShapeLayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD62E2591CA62FC00054FA68 /* Build configuration list for PBXNativeTarget "CAShapeLayerUITests" */;
+			buildPhases = (
+				BD62E2461CA62FC00054FA68 /* Sources */,
+				BD62E2471CA62FC00054FA68 /* Frameworks */,
+				BD62E2481CA62FC00054FA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD62E24C1CA62FC00054FA68 /* PBXTargetDependency */,
+			);
+			name = CAShapeLayerUITests;
+			productName = CAShapeLayerUITests;
+			productReference = BD62E24A1CA62FC00054FA68 /* CAShapeLayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD62E21B1CA62FC00054FA68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "席亚坤";
+				TargetAttributes = {
+					BD62E2221CA62FC00054FA68 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 98TXLAF3BE;
+					};
+					BD62E23E1CA62FC00054FA68 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 98TXLAF3BE;
+						TestTargetID = BD62E2221CA62FC00054FA68;
+					};
+					BD62E2491CA62FC00054FA68 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 98TXLAF3BE;
+						TestTargetID = BD62E2221CA62FC00054FA68;
+					};
+				};
+			};
+			buildConfigurationList = BD62E21E1CA62FC00054FA68 /* Build configuration list for PBXProject "CAShapeLayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD62E21A1CA62FC00054FA68;
+			productRefGroup = BD62E2241CA62FC00054FA68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD62E2221CA62FC00054FA68 /* CAShapeLayer */,
+				BD62E23E1CA62FC00054FA68 /* CAShapeLayerTests */,
+				BD62E2491CA62FC00054FA68 /* CAShapeLayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD62E2211CA62FC00054FA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD62E2391CA62FC00054FA68 /* LaunchScreen.storyboard in Resources */,
+				BD62E2361CA62FC00054FA68 /* Assets.xcassets in Resources */,
+				BD62E2311CA62FC00054FA68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD62E23D1CA62FC00054FA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD62E2481CA62FC00054FA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD62E21F1CA62FC00054FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD62E22E1CA62FC00054FA68 /* ViewController.m in Sources */,
+				BD62E22B1CA62FC00054FA68 /* AppDelegate.m in Sources */,
+				BD62E2281CA62FC00054FA68 /* main.m in Sources */,
+				BD62E2341CA62FC00054FA68 /* CAShapeLayer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD62E23B1CA62FC00054FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD62E2441CA62FC00054FA68 /* CAShapeLayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD62E2461CA62FC00054FA68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD62E24F1CA62FC00054FA68 /* CAShapeLayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD62E2411CA62FC00054FA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD62E2221CA62FC00054FA68 /* CAShapeLayer */;
+			targetProxy = BD62E2401CA62FC00054FA68 /* PBXContainerItemProxy */;
+		};
+		BD62E24C1CA62FC00054FA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD62E2221CA62FC00054FA68 /* CAShapeLayer */;
+			targetProxy = BD62E24B1CA62FC00054FA68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD62E22F1CA62FC00054FA68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD62E2301CA62FC00054FA68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD62E2371CA62FC00054FA68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD62E2381CA62FC00054FA68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD62E2511CA62FC00054FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD62E2521CA62FC00054FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD62E2541CA62FC00054FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAShapeLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weilang.CAShapeLayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD62E2551CA62FC00054FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CAShapeLayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weilang.CAShapeLayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD62E2571CA62FC00054FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAShapeLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weilang.CAShapeLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAShapeLayer.app/CAShapeLayer";
+			};
+			name = Debug;
+		};
+		BD62E2581CA62FC00054FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CAShapeLayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weilang.CAShapeLayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAShapeLayer.app/CAShapeLayer";
+			};
+			name = Release;
+		};
+		BD62E25A1CA62FC00054FA68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAShapeLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weilang.CAShapeLayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAShapeLayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BD62E25B1CA62FC00054FA68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CAShapeLayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weilang.CAShapeLayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CAShapeLayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD62E21E1CA62FC00054FA68 /* Build configuration list for PBXProject "CAShapeLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD62E2511CA62FC00054FA68 /* Debug */,
+				BD62E2521CA62FC00054FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD62E2531CA62FC00054FA68 /* Build configuration list for PBXNativeTarget "CAShapeLayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD62E2541CA62FC00054FA68 /* Debug */,
+				BD62E2551CA62FC00054FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD62E2561CA62FC00054FA68 /* Build configuration list for PBXNativeTarget "CAShapeLayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD62E2571CA62FC00054FA68 /* Debug */,
+				BD62E2581CA62FC00054FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD62E2591CA62FC00054FA68 /* Build configuration list for PBXNativeTarget "CAShapeLayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD62E25A1CA62FC00054FA68 /* Debug */,
+				BD62E25B1CA62FC00054FA68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD62E2321CA62FC00054FA68 /* CAShapeLayer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD62E2331CA62FC00054FA68 /* CAShapeLayer.xcdatamodel */,
+			);
+			currentVersion = BD62E2331CA62FC00054FA68 /* CAShapeLayer.xcdatamodel */;
+			path = CAShapeLayer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD62E21B1CA62FC00054FA68 /* Project object */;
+}

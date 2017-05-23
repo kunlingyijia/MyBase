@@ -1,0 +1,14 @@
+//
+//  leixingViewController.h
+//  自定义导航条
+//
+//  Created by 席亚坤 on 16/11/23.
+//  Copyright © 2016年 席亚坤. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+typedef void(^Back) ();
+@interface leixingViewController : UIViewController
+@property(nonatomic,copy)Back back;
+-(void)back:(Back)back;
+@end

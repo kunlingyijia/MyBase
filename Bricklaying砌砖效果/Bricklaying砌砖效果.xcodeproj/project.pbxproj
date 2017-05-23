@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD6BE6281E132A6B0091E62C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6BE6271E132A6B0091E62C /* main.m */; };
+		BD6BE62B1E132A6B0091E62C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6BE62A1E132A6B0091E62C /* AppDelegate.m */; };
+		BD6BE62E1E132A6B0091E62C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6BE62D1E132A6B0091E62C /* ViewController.m */; };
+		BD6BE6311E132A6B0091E62C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6BE62F1E132A6B0091E62C /* Main.storyboard */; };
+		BD6BE6331E132A6B0091E62C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6BE6321E132A6B0091E62C /* Assets.xcassets */; };
+		BD6BE6361E132A6B0091E62C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6BE6341E132A6B0091E62C /* LaunchScreen.storyboard */; };
+		BD6BE6411E132A6B0091E62C /* Bricklaying____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6BE6401E132A6B0091E62C /* Bricklaying____Tests.m */; };
+		BD6BE64C1E132A6B0091E62C /* Bricklaying____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6BE64B1E132A6B0091E62C /* Bricklaying____UITests.m */; };
+		BD6BE65B1E132A840091E62C /* BricklayingView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6BE65A1E132A840091E62C /* BricklayingView.m */; };
+		BDEE9C691E132F420046E8FE /* BricklayingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEE9C671E132F420046E8FE /* BricklayingCell.m */; };
+		BDEE9C6A1E132F420046E8FE /* BricklayingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEE9C681E132F420046E8FE /* BricklayingCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD6BE63D1E132A6B0091E62C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD6BE61B1E132A6B0091E62C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD6BE6221E132A6B0091E62C;
+			remoteInfo = "Bricklaying砌砖效果";
+		};
+		BD6BE6481E132A6B0091E62C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD6BE61B1E132A6B0091E62C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD6BE6221E132A6B0091E62C;
+			remoteInfo = "Bricklaying砌砖效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD6BE6231E132A6B0091E62C /* Bricklaying砌砖效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bricklaying砌砖效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6BE6271E132A6B0091E62C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD6BE6291E132A6B0091E62C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD6BE62A1E132A6B0091E62C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD6BE62C1E132A6B0091E62C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD6BE62D1E132A6B0091E62C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD6BE6301E132A6B0091E62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD6BE6321E132A6B0091E62C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD6BE6351E132A6B0091E62C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD6BE6371E132A6B0091E62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD6BE63C1E132A6B0091E62C /* Bricklaying砌砖效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bricklaying砌砖效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6BE6401E132A6B0091E62C /* Bricklaying____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Bricklaying____Tests.m"; sourceTree = "<group>"; };
+		BD6BE6421E132A6B0091E62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD6BE6471E132A6B0091E62C /* Bricklaying砌砖效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bricklaying砌砖效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6BE64B1E132A6B0091E62C /* Bricklaying____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Bricklaying____UITests.m"; sourceTree = "<group>"; };
+		BD6BE64D1E132A6B0091E62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD6BE6591E132A840091E62C /* BricklayingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BricklayingView.h; sourceTree = "<group>"; };
+		BD6BE65A1E132A840091E62C /* BricklayingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BricklayingView.m; sourceTree = "<group>"; };
+		BDEE9C661E132F420046E8FE /* BricklayingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BricklayingCell.h; sourceTree = "<group>"; };
+		BDEE9C671E132F420046E8FE /* BricklayingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BricklayingCell.m; sourceTree = "<group>"; };
+		BDEE9C681E132F420046E8FE /* BricklayingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BricklayingCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD6BE6201E132A6B0091E62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6BE6391E132A6B0091E62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6BE6441E132A6B0091E62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD6BE61A1E132A6B0091E62C = {
+			isa = PBXGroup;
+			children = (
+				BD6BE6251E132A6B0091E62C /* Bricklaying砌砖效果 */,
+				BD6BE63F1E132A6B0091E62C /* Bricklaying砌砖效果Tests */,
+				BD6BE64A1E132A6B0091E62C /* Bricklaying砌砖效果UITests */,
+				BD6BE6241E132A6B0091E62C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD6BE6241E132A6B0091E62C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD6BE6231E132A6B0091E62C /* Bricklaying砌砖效果.app */,
+				BD6BE63C1E132A6B0091E62C /* Bricklaying砌砖效果Tests.xctest */,
+				BD6BE6471E132A6B0091E62C /* Bricklaying砌砖效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD6BE6251E132A6B0091E62C /* Bricklaying砌砖效果 */ = {
+			isa = PBXGroup;
+			children = (
+				BD6BE6291E132A6B0091E62C /* AppDelegate.h */,
+				BD6BE62A1E132A6B0091E62C /* AppDelegate.m */,
+				BD6BE62C1E132A6B0091E62C /* ViewController.h */,
+				BD6BE62D1E132A6B0091E62C /* ViewController.m */,
+				BD6BE6591E132A840091E62C /* BricklayingView.h */,
+				BD6BE65A1E132A840091E62C /* BricklayingView.m */,
+				BDEE9C661E132F420046E8FE /* BricklayingCell.h */,
+				BDEE9C671E132F420046E8FE /* BricklayingCell.m */,
+				BDEE9C681E132F420046E8FE /* BricklayingCell.xib */,
+				BD6BE62F1E132A6B0091E62C /* Main.storyboard */,
+				BD6BE6321E132A6B0091E62C /* Assets.xcassets */,
+				BD6BE6341E132A6B0091E62C /* LaunchScreen.storyboard */,
+				BD6BE6371E132A6B0091E62C /* Info.plist */,
+				BD6BE6261E132A6B0091E62C /* Supporting Files */,
+			);
+			path = "Bricklaying砌砖效果";
+			sourceTree = "<group>";
+		};
+		BD6BE6261E132A6B0091E62C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD6BE6271E132A6B0091E62C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD6BE63F1E132A6B0091E62C /* Bricklaying砌砖效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD6BE6401E132A6B0091E62C /* Bricklaying____Tests.m */,
+				BD6BE6421E132A6B0091E62C /* Info.plist */,
+			);
+			path = "Bricklaying砌砖效果Tests";
+			sourceTree = "<group>";
+		};
+		BD6BE64A1E132A6B0091E62C /* Bricklaying砌砖效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD6BE64B1E132A6B0091E62C /* Bricklaying____UITests.m */,
+				BD6BE64D1E132A6B0091E62C /* Info.plist */,
+			);
+			path = "Bricklaying砌砖效果UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD6BE6221E132A6B0091E62C /* Bricklaying砌砖效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6BE6501E132A6B0091E62C /* Build configuration list for PBXNativeTarget "Bricklaying砌砖效果" */;
+			buildPhases = (
+				BD6BE61F1E132A6B0091E62C /* Sources */,
+				BD6BE6201E132A6B0091E62C /* Frameworks */,
+				BD6BE6211E132A6B0091E62C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bricklaying砌砖效果";
+			productName = "Bricklaying砌砖效果";
+			productReference = BD6BE6231E132A6B0091E62C /* Bricklaying砌砖效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD6BE63B1E132A6B0091E62C /* Bricklaying砌砖效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6BE6531E132A6B0091E62C /* Build configuration list for PBXNativeTarget "Bricklaying砌砖效果Tests" */;
+			buildPhases = (
+				BD6BE6381E132A6B0091E62C /* Sources */,
+				BD6BE6391E132A6B0091E62C /* Frameworks */,
+				BD6BE63A1E132A6B0091E62C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD6BE63E1E132A6B0091E62C /* PBXTargetDependency */,
+			);
+			name = "Bricklaying砌砖效果Tests";
+			productName = "Bricklaying砌砖效果Tests";
+			productReference = BD6BE63C1E132A6B0091E62C /* Bricklaying砌砖效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD6BE6461E132A6B0091E62C /* Bricklaying砌砖效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6BE6561E132A6B0091E62C /* Build configuration list for PBXNativeTarget "Bricklaying砌砖效果UITests" */;
+			buildPhases = (
+				BD6BE6431E132A6B0091E62C /* Sources */,
+				BD6BE6441E132A6B0091E62C /* Frameworks */,
+				BD6BE6451E132A6B0091E62C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD6BE6491E132A6B0091E62C /* PBXTargetDependency */,
+			);
+			name = "Bricklaying砌砖效果UITests";
+			productName = "Bricklaying砌砖效果UITests";
+			productReference = BD6BE6471E132A6B0091E62C /* Bricklaying砌砖效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD6BE61B1E132A6B0091E62C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "席亚坤";
+				TargetAttributes = {
+					BD6BE6221E132A6B0091E62C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+					};
+					BD6BE63B1E132A6B0091E62C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD6BE6221E132A6B0091E62C;
+					};
+					BD6BE6461E132A6B0091E62C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 98TXLAF3BE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BD6BE6221E132A6B0091E62C;
+					};
+				};
+			};
+			buildConfigurationList = BD6BE61E1E132A6B0091E62C /* Build configuration list for PBXProject "Bricklaying砌砖效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD6BE61A1E132A6B0091E62C;
+			productRefGroup = BD6BE6241E132A6B0091E62C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD6BE6221E132A6B0091E62C /* Bricklaying砌砖效果 */,
+				BD6BE63B1E132A6B0091E62C /* Bricklaying砌砖效果Tests */,
+				BD6BE6461E132A6B0091E62C /* Bricklaying砌砖效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD6BE6211E132A6B0091E62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6BE6361E132A6B0091E62C /* LaunchScreen.storyboard in Resources */,
+				BD6BE6331E132A6B0091E62C /* Assets.xcassets in Resources */,
+				BD6BE6311E132A6B0091E62C /* Main.storyboard in Resources */,
+				BDEE9C6A1E132F420046E8FE /* BricklayingCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6BE63A1E132A6B0091E62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6BE6451E132A6B0091E62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD6BE61F1E132A6B0091E62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEE9C691E132F420046E8FE /* BricklayingCell.m in Sources */,
+				BD6BE62E1E132A6B0091E62C /* ViewController.m in Sources */,
+				BD6BE62B1E132A6B0091E62C /* AppDelegate.m in Sources */,
+				BD6BE65B1E132A840091E62C /* BricklayingView.m in Sources */,
+				BD6BE6281E132A6B0091E62C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6BE6381E132A6B0091E62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6BE6411E132A6B0091E62C /* Bricklaying____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6BE6431E132A6B0091E62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6BE64C1E132A6B0091E62C /* Bricklaying____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD6BE63E1E132A6B0091E62C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD6BE6221E132A6B0091E62C /* Bricklaying砌砖效果 */;
+			targetProxy = BD6BE63D1E132A6B0091E62C /* PBXContainerItemProxy */;
+		};
+		BD6BE6491E132A6B0091E62C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD6BE6221E132A6B0091E62C /* Bricklaying砌砖效果 */;
+			targetProxy = BD6BE6481E132A6B0091E62C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD6BE62F1E132A6B0091E62C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6BE6301E132A6B0091E62C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD6BE6341E132A6B0091E62C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6BE6351E132A6B0091E62C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD6BE64E1E132A6B0091E62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD6BE64F1E132A6B0091E62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD6BE6511E132A6B0091E62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "Bricklaying砌砖效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.Bricklaying----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD6BE6521E132A6B0091E62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "Bricklaying砌砖效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.Bricklaying----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD6BE6541E132A6B0091E62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "Bricklaying砌砖效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.Bricklaying----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bricklaying砌砖效果.app/Bricklaying砌砖效果";
+			};
+			name = Debug;
+		};
+		BD6BE6551E132A6B0091E62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "Bricklaying砌砖效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.Bricklaying----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bricklaying砌砖效果.app/Bricklaying砌砖效果";
+			};
+			name = Release;
+		};
+		BD6BE6571E132A6B0091E62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "Bricklaying砌砖效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.Bricklaying----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bricklaying砌砖效果";
+			};
+			name = Debug;
+		};
+		BD6BE6581E132A6B0091E62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 98TXLAF3BE;
+				INFOPLIST_FILE = "Bricklaying砌砖效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shidi.Bricklaying----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Bricklaying砌砖效果";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD6BE61E1E132A6B0091E62C /* Build configuration list for PBXProject "Bricklaying砌砖效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6BE64E1E132A6B0091E62C /* Debug */,
+				BD6BE64F1E132A6B0091E62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6BE6501E132A6B0091E62C /* Build configuration list for PBXNativeTarget "Bricklaying砌砖效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6BE6511E132A6B0091E62C /* Debug */,
+				BD6BE6521E132A6B0091E62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6BE6531E132A6B0091E62C /* Build configuration list for PBXNativeTarget "Bricklaying砌砖效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6BE6541E132A6B0091E62C /* Debug */,
+				BD6BE6551E132A6B0091E62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6BE6561E132A6B0091E62C /* Build configuration list for PBXNativeTarget "Bricklaying砌砖效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6BE6571E132A6B0091E62C /* Debug */,
+				BD6BE6581E132A6B0091E62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD6BE61B1E132A6B0091E62C /* Project object */;
+}
