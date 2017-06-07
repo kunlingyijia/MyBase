@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A98EEB6619EC7D2068E66BE11AF03E4C29001737",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A98EEB6619EC7D2068E66BE11AF03E4C29001737" : 9223372036854775807,
+    "F6C779641BC021F3C885F47989726520297BF911" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BA2B6DE6-FC9A-4D61-9603-C028C37F3721",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A98EEB6619EC7D2068E66BE11AF03E4C29001737" : "ios-sdk\/",
+    "F6C779641BC021F3C885F47989726520297BF911" : "ios-sdk\/src\/AipBase\/AipBase\/AipAuthCommon\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AipOcr",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "src\/AipOcr.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/icode.baidu.com:8235\/baidu\/aip\/ios-sdk",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A98EEB6619EC7D2068E66BE11AF03E4C29001737"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/icode.baidu.com:8235\/baidu\/aip\/verify-common",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F6C779641BC021F3C885F47989726520297BF911"
+    }
+  ]
+}

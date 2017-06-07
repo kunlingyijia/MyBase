@@ -49,9 +49,9 @@ typedef enum : NSUInteger {
 -(void)SET_Data{
     //NSArray *ZWLanguageListArr=[NSArray arrayWithObjects:@"宝贝",@"团购",@"便民" ,nil];
     self.PopoverViewArr=[NSMutableArray arrayWithCapacity:0];
-    [self.PopoverViewArr addObject:@{@"title":@"宝贝",@"hidID":@"1"}];
-     [self.PopoverViewArr addObject:@{@"title":@"团购",@"hidID":@"2"}];
-    [self.PopoverViewArr addObject:@{@"title":@"便民",@"hidID":@"3"}];
+    [self.PopoverViewArr addObject:@{@"title":@"宝贝1",@"hidID":@"1"}];
+     [self.PopoverViewArr addObject:@{@"title":@"团购1",@"hidID":@"2"}];
+    [self.PopoverViewArr addObject:@{@"title":@"便民1",@"hidID":@"3"}];
     self.searchData = HistoryData;
     [self.HistoryArray removeAllObjects];
     self.HistoryArray = [NSMutableArray arrayWithArray:[self GetHistoryData]];
